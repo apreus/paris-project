@@ -1,0 +1,2338 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Paris</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">HOLD FOR INFORMATION ABOUT THIS PUBLICATION</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">HOLD FOR INFORMATION ABOUT THE SOURCE</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="en">English</language><!--XML:Do I need this?-->
+            <language ident="fr">French</language>
+            <language ident="latn">Latin</language>
+            <language ident="gr">Greek</language>
+            <language ident="ru">Russian</language>
+            <language ident="it">Italian</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+   <text>
+      <front>
+         <titlePage>
+            <space type="margin" dim="vertical" unit="pts" quantity="66" resp="Grove"/>
+            <titlePart type="main" rend="fontsize(32pt) face(allCaps)"> 
+               <space type="alignL" dim="horizontal" unit="pts" quantity="48" resp="Grove"/>PARIS </titlePart><lb n="0.1" xml:id="l.0.1"/>
+            
+            <space type="leading" dim="vertical" unit="pts" quantity="9" resp="Grove"/>
+            
+            <titlePart type="sub" rend="fontsize(12pt) face(allCaps)"> 
+               <space type="alignL" dim="horizontal" unit="pts" quantity="68" resp="Grove"/>A POEM </titlePart><lb n="0.2" xml:id="l.0.2"/>
+
+            <space type="leading" dim="vertical" unit="pts" quantity="20" resp="Grove"/>
+
+            <byline>
+               <seg rend="fontsize(7pt) face(allCaps)" part="N"> 
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="88" resp="Grove"/>BY </seg><lb n="0.3" xml:id="l.0.3"/>
+               <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+               <docAuthor rend="fontsize(11pt) face(allCaps)"> 
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>HOPE MIRRLEES</docAuthor>
+               <lb n="0.4" xml:id="l.0.4"/></byline>
+
+            <space type="whitespace" dim="vertical" unit="pts" quantity="149" resp="Grove"/>
+
+            <docImprint rend="face(italics) fontsize(10)">
+               <seg part="N"> 
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="8" resp="Grove"/>Printed by Leonard
+                  <space type="character" dim="horizontal" unit="pts" quantity="3" resp="Grove"/> &amp;
+                  <space type="character" dim="horizontal" unit="pts" quantity="5.5" resp="Grove"/> Virginia Woolf at </seg><lb n="0.5" xml:id="l.0.5"/>
+               
+               <seg part="N">The Hogarth Press, Paradise Road, Richmond</seg><lb n="0.6" xml:id="l.0.6"/>
+               <docDate><space type="alignL" dim="horizontal" unit="pts" quantity="85" resp="Grove"/>
+                  1919</docDate><lb n="0.7" xml:id="l.0.7"/>
+            </docImprint>
+         </titlePage>
+
+         <milestone unit="page" n="1"/>
+         <milestone unit="spread" n="1"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="167" resp="Grove"/>
+         
+         <div type="dedication" xml:id="g.1" rend="face(allCaps)" part="N" org="uniform" sample="complete">
+            <p part="N"><!--XML: why won't this work with line group. what to do with numbering?-->
+               <foreign xml:lang="fr"><!--LANGUAGE: should this be lang. tagged as a group?-->
+                  <seg part="N">
+                     <space type="alignL" dim="horizontal" unit="pts" quantity="107" resp="Grove"/>A</seg><lb n="0.8" xml:id="l.0.8"/><!--XML: how note box?-->
+                  <seg part="N">
+                     <space type="alignL" dim="horizontal" unit="pts" quantity="48" resp="Grove"/>NOTRE DAME DE PARIS</seg><lb n="0.9" xml:id="l.0.9"/>
+                  <seg part="N">
+                     <space type="alignL" dim="horizontal" unit="pts" quantity="54.5" resp="Grove"/>EN RECONNAISSANCE</seg><lb n="0.10" xml:id="l.0.10"/>
+                  <seg part="N">
+                     <space type="alignL" dim="horizontal" unit="pts" quantity="45" resp="Grove"/>DES GRACES ACCORDEES</seg><lb n="0.11" xml:id="l.0.11"/>
+               </foreign>
+            </p>
+         </div>
+         <milestone unit="page" n="2"/>
+      </front>
+
+      <body>
+         <space type="margin" dim="vertical" unit="pts" quantity="66" resp="Grove"/>
+         
+         <l n="1" xml:id="l.1" part="N"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="22" resp="Grove"/>I
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/> want
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/> a
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/> holophrase </l>
+            
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <l n="2" xml:id="l.2" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="37" resp="Grove"/>
+            <ref xml:id="a.1"><foreign xml:lang="fr">NORD-SUD</foreign></ref></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="3" xml:id="l.3" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="37" resp="Grove"/>
+            <ref xml:id="a.3">ZIG-ZAG</ref></l> <!--LANGUAGE: is this a diff lang?-->
+
+         <l n="4" xml:id="l.4" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="37" resp="Grove"/>
+            <ref xml:id="a.4"><foreign xml:lang="fr">LION
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/> NOIR
+            </foreign></ref></l>
+
+         <l n="5" xml:id="l.5" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="37" resp="Grove"/>
+            <ref xml:id="a.5"><foreign xml:lang="fr">CACAO
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/> BLOOKER
+            </foreign></ref></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="11" resp="Grove"/>
+         
+         <l n="6" xml:id="l.6" part="N"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="24" resp="Grove"/>Black
+            <seg rend="fontsize(7pt)" part="N">-</seg>figured vases in Etruscan tombs</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="7" xml:id="l.7" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="52" resp="Grove"/>
+            <foreign xml:lang="fr">
+               <ref xml:id="a.6"> R<space type="character" dim="horizontal" unit="pts"
+                     quantity="0.5" resp="Grove"/> UE DU BAC</ref>
+               <ref xml:id="a.2">(DUBONNET)</ref></foreign></l>
+
+         <l n="8" xml:id="l.8" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="52" resp="Grove"/>
+            <foreign xml:lang="fr">SOLFERINO <ref xml:id="a.2a">(DUBONNET)</ref></foreign></l>
+
+         <l n="9" xml:id="l.9" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="52" resp="Grove"/>
+            <foreign xml:lang="fr">CHAMBRE DES DEPUTES</foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="10" xml:id="l.10" part="N"><seg rend="justified">Brekekekek coax coax we are passing under the Seine</seg></l>
+         
+         <!--LANGUAGE: how deal with sounds?-->
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="11" xml:id="l.11" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="37" resp="Grove"/>
+            <ref xml:id="a.2b"><foreign xml:lang="fr">DUBONNET</foreign></ref></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="12" xml:id="l.12" part="I"> 
+            <seg rend="justified">The Scarlet Woman shouting 
+               <hi rend="face(allCaps)">BYRRH</hi> and deafening </seg></l>
+
+         <l n="13" xml:id="l.13" part="F">
+            <corr rend="handwritten" resp="Woolf" instant="false">St.</corr> John at Patmos</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <l n="14" xml:id="l.14" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="55" resp="Grove"/>
+            <hi rend="face(italics)"><foreign xml:lang="fr">Vous descendez Madame?</foreign></hi></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="15" xml:id="l.15" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="22" resp="Grove"/>
+            <foreign xml:lang="fr">QUI SOUVENT SE PESE BIEN SE CONNAIT</foreign></l>
+
+         <l n="16" xml:id="l.16" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="22" resp="Grove"/>
+            <foreign xml:lang="fr">QUI BIEN SE CONNAIT BIEN SE PORTE</foreign></l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="11" resp="Grove"/>
+         
+         <l n="17" xml:id="l.17" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="37" resp="Grove"/>
+            <foreign xml:lang="fr">CONCORDE</foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="11" resp="Grove"/>
+
+         <l n="18" xml:id="l.18" part="N"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="37" resp="Grove"/>I
+            <space type="character" dim="horizontal" unit="pts" quantity="6" resp="Grove"/>can't</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="19" xml:id="l.19" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="66" resp="Grove"/>I
+            <space type="character" dim="horizontal" unit="pts" quantity="6" resp="Grove"/>must
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/>go
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/>slowly</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="104" resp="Grove"/>(3)</fw>
+         
+         <space type="margin" dim="vertical" unit="pts" quantity="40" resp="Grove"/>
+
+         <milestone unit="page" n="3"/>
+         <milestone unit="spread" n="2"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="59" resp="Grove"/>
+
+         <l n="20" xml:id="l.20" part="I"><seg rend="justified"> 
+            The<space type="internal" dim="horizontal" unit="pts" quantity="24" resp="Grove"/>Tuileries
+            <space type="internal" dim="horizontal" unit="pts" quantity="24" resp="Grove"/>are
+            <space type="internal" dim="horizontal" unit="pts" quantity="23" resp="Grove"/>in
+            <space type="internal" dim="horizontal" unit="pts" quantity="24" resp="Grove"/>a
+            <space type="internal" dim="horizontal" unit="pts" quantity="22" resp="Grove"/>trance</seg></l>
+         <!--LANGUAGE: do we want to mark "Tuileries" as French-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="11" resp="Grove"/>
+         
+         <l n="21" xml:id="l.21" part="M"><seg rend="justified">
+            because<space type="internal" dim="horizontal" unit="pts" quantity="46.5" resp="Grove"/>the
+            <space type="internal" dim="horizontal" unit="pts" quantity="39.25" resp="Grove"/>painters
+            <space type="internal" dim="horizontal" unit="pts" quantity="36" resp="Grove"/>have</seg></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="11" resp="Grove"/>
+         
+         <l n="22" xml:id="l.22" part="F"><seg rend="justified">
+            stared<space type="internal" dim="horizontal" unit="pts" quantity="33" resp="Grove"/>at
+            <space type="internal" dim="horizontal" unit="pts" quantity="36" resp="Grove"/>them
+            <space type="internal" dim="horizontal" unit="pts" quantity="36" resp="Grove"/>so
+            <space type="internal" dim="horizontal" unit="pts" quantity="33" resp="Grove"/>long</seg></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="22" resp="Grove"/>
+
+         <l n="23" xml:id="l.23" part="I"><seg rend="justified">
+            Little boys in black overalls whose hands, sticky with</seg></l>
+
+         <l n="24" xml:id="l.24" part="M"><seg rend="justified">
+            play, are like the newly furled leaves of the horse<seg rend="fontsize(7pt)" part="N">-</seg></seg></l>
+
+         <l n="25" xml:id="l.25" part="M"><seg rend="justified">
+            chestnuts ride round and round on wooden horses till</seg></l>
+
+         <l n="26" xml:id="l.26" part="F">their heads turn.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="27" xml:id="l.27" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Pigeons perch on statues</l>
+
+         <l n="28" xml:id="l.28" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>And are turned to stone.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="29" xml:id="l.29" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>
+            <foreign xml:lang="fr">Le départ pour Cythère.</foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="13" resp="Grove"/>
+
+         <l n="30" xml:id="l.30" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>These nymphs are harmless,</l>
+
+         <l n="31" xml:id="l.31" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Fear not their soft mouths——</l>
+
+         <l n="32" xml:id="l.32" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>Some Pasteur made the Gaulsimmune</l>
+
+         <l n="33" xml:id="l.33" part="N"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>Against the bite of Nymphs
+            <space type="internal" dim="horizontal" unit="pts" quantity="5" resp="Grove"/> .
+            <space type="internal" dim="horizontal" unit="pts" quantity="5" resp="Grove"/> .
+            <space type="internal" dim="horizontal" unit="pts" quantity="5" resp="Grove"/> .
+            <space type="internal" dim="horizontal" unit="pts" quantity="5" resp="Grove"/> look </l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="34" xml:id="l.34" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="80" resp="Grove"/>Gambetta</l>
+
+         <l n="35" xml:id="l.35" part="N"><seg rend="alignedR"><!--RIGHT ALIGNMENT-->
+            <space type="alignL" dim="horizontal" unit="pts" quantity="21" resp="Grove"/>
+            A red stud in the button-hole of his frock-coat</seg></l>
+
+         <l n="36" xml:id="l.36" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>The obscene conjugal 
+            <hi rend="face(italics)"><foreign xml:lang="fr">tutoiment</foreign></hi></l>
+
+         <l n="37" xml:id="l.37" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>
+            <hi rend="face(italics)"><foreign xml:lang="fr">Mais c'est logique</foreign></hi>
+         </l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="11" resp="Grove"/>
+
+         <l n="38" xml:id="l.38" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="21" resp="Grove"/>The 
+            <foreign xml:lang="fr">Esprit Français</foreign> is leaning over him</l>
+
+         <l n="39" xml:id="l.39" rend="fromLeft(82pts)" part="N">Whispering</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="99" resp="Grove"/>(
+            <space type="character" dim="horizontal" unit="pts" quantity="2.5" resp="Grove"/> 4
+            <space type="character" dim="horizontal" unit="pts" quantity="2.5" resp="Grove"/> )</fw>
+
+         <milestone unit="page" n="4"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="39" resp="Grove"/>
+
+         <l n="40" xml:id="l.40" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="94" resp="Grove"/>Secrets</l>
+
+         <l n="41" xml:id="l.41" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>exquisite
+            <space type="internal" dim="horizontal" unit="pts" quantity="22.5" resp="Grove"/>significant</l>
+
+         <l n="42" xml:id="l.42" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="71" resp="Grove"/>fade
+            <space type="internal" dim="horizontal" unit="pts" quantity="34" resp="Grove"/>plastic</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="11" resp="Grove"/>
+
+         <l n="43" xml:id="l.43" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>Of the XXIIIth Duchess of Alba</l>
+
+         <l n="44" xml:id="l.44" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="51" resp="Grove"/>Long long as the Eiffel Tower</l>
+
+         <l n="45" xml:id="l.45" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>Fathoms deep in haschich</l>
+         <!--LANGUAGE: is this spelling of haschich a diff lang?-->
+
+         <l n="46" xml:id="l.46" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>With languid compelling finger</l>
+
+         <l n="47" xml:id="l.47" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>Pointing invisible Magi</l>
+
+         <l n="48" xml:id="l.48" part="N"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="51" resp="Grove"/>To a little white Maltese
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> : </l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="49" xml:id="l.49" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>The back
+            <seg rend="fontsize(8pt)" part="N">-</seg>ground gray and olive-green</l>
+
+         <l n="50" xml:id="l.50" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>Like le Midi, the Louvre, 
+            <foreign xml:lang="fr">la Seine</foreign>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> .</l>
+         <!--LANGUAGE: should Louvre be noted as French-->
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="51" xml:id="l.51" part="I"><seg rend="justified">
+            Of ivory paper<seg rend="fontsize(8pt)" part="N">-</seg>knives, a lion carved on the handle,</seg></l>
+
+         <l n="52" xml:id="l.52" part="M"><seg rend="justified">
+            Lysistrata had one, but the worksmanship of these is</seg></l>
+
+         <l n="53" xml:id="l.53" part="F"> Empire.
+            <space type="internal" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> .
+            <space type="internal" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> .
+            <space type="internal" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> . </l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="11" resp="Grove"/>
+         
+         <l n="54" xml:id="l.54" part="N"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="21" resp="Grove"/>Of
+            <space type="internal" dim="horizontal" unit="pts" quantity="2.5" resp="Grove"/> .
+            <space type="internal" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> .
+            <space type="internal" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> . </l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="55" xml:id="l.55" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>I see the 
+            <foreign xml:lang="fr">Arc de Triomphe</foreign></l><!--LANGUAGE: mark Arc de Triomphe as French?-->
+
+         <l n="56" xml:id="l.56" part="N"><seg rend="alignedR"><!--ALIGNED RIGHT-->
+            <space type="alignL" dim="horizontal" unit="pts" quantity="18" resp="Grove"/>Square and shadowy like Julius Cæsar's dreams
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> : </seg></l><!--TYPE: note spec. char-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="57" xml:id="l.57" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>Scorn the laws of solid geometry,</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="58" xml:id="l.58" part="N"> 
+            Step boldly into the wall of the <foreign xml:lang="fr">Salle Caillebotte</foreign></l>
+         <!--LANGUAGE: Mark "Salle Caillebotte" as French?-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="59" xml:id="l.59" part="N"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>And on and on.
+            <space type="internal" dim="horizontal" unit="pts" quantity="5.5" resp="Grove"/> .
+            <space type="internal" dim="horizontal" unit="pts" quantity="5.5" resp="Grove"/> .
+            <space type="internal" dim="horizontal" unit="pts" quantity="5.5" resp="Grove"/> .</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="60" xml:id="l.60" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>I hate the 
+            <foreign xml:lang="fr">Etoile</foreign></l>
+
+         <l n="61" xml:id="l.61" part="N"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>The 
+            <foreign xml:lang="fr">Bois</foreign> bores me
+            <space type="internal" dim="horizontal" unit="pts" quantity="1" resp="Grove"/>:</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="144" resp="Grove"/>(
+            <space type="character" dim="horizontal" unit="pts" quantity="2.5" resp="Grove"/> 5
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> )</fw>
+
+         <milestone unit="page" n="5"/>
+         <milestone unit="spread" n="3"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="41" resp="Grove"/>
+         
+         <l n="62" xml:id="l.62" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>Tortoises with gem
+            <seg rend="fontsize(7pt)" part="N">-</seg>encrusted carapace</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="63" xml:id="l.63" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="20" resp="Grove"/>
+            A Roman boy picking a thorn out of his foot</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="64" xml:id="l.64" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>A flock of discalceated 
+            <foreign xml:lang="fr">Madame Récamiers</foreign></l>
+
+         <l n="65" xml:id="l.65" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="20" resp="Grove"/>Moaning for the 
+            <foreign xml:lang="fr">Chateaubriand <hi rend="face(italics)">de nos jours</hi></foreign>.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="66" xml:id="l.66" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="42" resp="Grove"/>And yet
+            <space type="character" dim="horizontal" unit="pts" quantity="2.5" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="4" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> quite near </l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="67" xml:id="l.67" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>Saunters the ancient 
+            <foreign xml:lang="fr">rue Saint<seg rend="fontsize(7pt)" part="N">-</seg>Honoré</foreign></l><!--LANGUAGE: should be tagged?-->
+
+         <l n="68" xml:id="l.68" part="I"><seg rend="justified">
+            Shabby and indifferent, as a <foreign xml:lang="fr">Grand Seigneur
+            </foreign> from Brit<seg rend="fontsize(7pt)" part="N">-</seg></seg></l>
+
+         <l n="69" xml:id="l.69" part="F"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="199" resp="Grove"/>tany</seg></l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="70" xml:id="l.70" part="I"><seg rend="justified"> 
+            An<foreign xml:lang="fr">Auvergnat</foreign>,all the mountains of <foreign xml:lang="fr">Auvergne</foreign> in</seg></l><!--LANGUAGE-->
+
+         <l n="71" xml:id="l.71" part="F"> 
+            every chestnut that he sells.<space type="internal" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>. </l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="72" xml:id="l.72" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>Paris is a huge home
+            <seg rend="fontsize(7pt)" part="N">-</seg>sick peasant,</l>
+
+         <l n="73" xml:id="l.73" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>He carries a thousand villages in his heart.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="74" xml:id="l.74" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>Hidden courts</l>
+
+         <l n="75" xml:id="l.75" part="N"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="6" resp="Grove"/>With fauns in very low
+            <seg rend="fontsize(7pt)" part="N">-</seg>relief piping among lotuses </seg></l><!--ALIGNED RIGHT-->
+
+         <l n="76" xml:id="l.76" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>And creepers grown on trellises</l>
+
+         <l n="77" xml:id="l.77" part="N">
+            Are secret valleys where little gods are born.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="78" xml:id="l.78" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="42" resp="Grove"/>One often hears a cock</l>
+
+         <l n="79" xml:id="l.79" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="42" resp="Grove"/><hi rend="face(italics)">Do do do mi
+               <space type="character" dim="horizontal" unit="pts" quantity="1" resp="Grove"/> i
+               <space type="character" dim="horizontal" unit="pts" quantity="1" resp="Grove"/> i</hi></l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="80" xml:id="l.80" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="42" resp="Grove"/>He cannot sing of towns——</l>
+
+         <l n="81" xml:id="l.81" part="N">
+            Old Hesiod's ghost with leisure to be melancholy</l>
+
+         <l n="82" xml:id="l.82" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>Amid the timeless ideleness of Acheron</l>
+
+         <l n="83" xml:id="l.83" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>Yearning for ‘
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> Works and Days
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>’
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>hark
+            <space type="character" dim="horizontal" unit="pts" quantity="1" resp="Grove"/> ! </l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="84" xml:id="l.84" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="42" resp="Grove"/>The lovely Spirit of the Year</l>
+
+         <l n="85" xml:id="l.85" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>Is stiff and stark</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="106" resp="Grove"/>(
+            <space type="character" dim="horizontal" unit="pts" quantity="2.5" resp="Grove"/> 6
+            <space type="character" dim="horizontal" unit="pts" quantity="1" resp="Grove"/> )</fw>
+
+         <milestone unit="page" n="6"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="45" resp="Grove"/>
+
+         <l n="86" xml:id="l.86" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="38" resp="Grove"/>Laid out in acres of brown fields,</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="87" xml:id="l.87" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="21" resp="Grove"/>The crisp, straight lines of his archaic drapery</l>
+
+         <l n="88" xml:id="l.88" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="32" resp="Grove"/>Well chiselled by the plough
+            <space type="internal" dim="horizontal" unit="pts" quantity="5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="5.5" resp="Grove"/>. </l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="89" xml:id="l.89" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>And there are pretty things——</l>
+
+         <l n="90" xml:id="l.90" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>Children hung with amulets</l>
+
+         <l n="91" xml:id="l.91" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>Playing at
+            <foreign xml:lang="fr"><hi rend="face(italics)">Pigeon vole</hi></foreign>,</l>
+
+         <l n="92" xml:id="l.92" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>Red roofs,</l>
+
+         <l n="93" xml:id="l.93" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>Blue smocks,</l>
+
+         <l n="94" xml:id="l.94" part="N"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="51" resp="Grove"/>And jolly saints
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="5.5" resp="Grove"/>.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="16" resp="Grove"/>
+
+         <l n="95" xml:id="l.95" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="82" resp="Grove"/>AU</l>
+
+         <l n="96" xml:id="l.96" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/><foreign xml:lang="fr">BON
+               <space type="character" dim="horizontal" unit="pts" quantity="7" resp="Grove"/> MARCHE</foreign></l>
+
+         <l n="97" xml:id="l.97" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>
+            <foreign xml:lang="fr">ACTUELLEMENT</foreign></l>
+
+         <l n="98" xml:id="l.98" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="82" resp="Grove"/>
+            <foreign xml:lang="fr">TOILETTES</foreign></l>
+
+         <l n="99" xml:id="l.99" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="51" resp="Grove"/>
+            <foreign xml:lang="fr">PRINTANIERES</foreign></l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="14" resp="Grove"/>
+         
+         <l n="100" xml:id="l.100" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="21" resp="Grove"/>The 
+            <foreign xml:lang="fr">jeunesse dorée</foreign> of the sycamores.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="101" xml:id="l.101" part="I"><seg rend="justified">In the Churches during Lent Christ and the Saints</seg></l>
+
+         <l n="102" xml:id="l.102" part="F">are shrouded in mauve veils.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="103" xml:id="l.103" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>Far away in gardens</l>
+
+         <l n="104" xml:id="l.104" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="82" resp="Grove"/>Crocuses,</l>
+
+         <l n="105" xml:id="l.105" part="N"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="21" resp="Grove"/>Chionodoxa, the Princess in a Serbian fairy-tale,</seg></l>
+         <!--LANGUAGE: how tag "Chionodoxa"?-->
+
+         <l n="106" xml:id="l.106" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="82" resp="Grove"/>Then</l>
+
+         <l n="107" xml:id="l.107" part="N"><seg rend="alignedR"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="14" resp="Grove"/>The goldsmith's
+            <foreign xml:lang="fr">chef d’œuvre</foreign>——lily of the valley,</seg></l><!--TYPE: note special char-->
+
+         <l n="108" xml:id="l.108" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="82" resp="Grove"/>Soon</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="109" xml:id="l.109" part="N">
+            <seg rend="justified">Dog-roses will stare at gypsies, wanes, and pilgrimages</seg></l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="103" resp="Grove"/>(
+            <space type="character" dim="horizontal" unit="pts" quantity="1" resp="Grove"/>7
+            <space type="character" dim="horizontal" unit="pts" quantity="1" resp="Grove"/>)</fw>
+
+         <milestone unit="page" n="7"/>
+         <milestone unit="spread" n="4"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="39" resp="Grove"/>
+
+         <l n="110" xml:id="l.110" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>All the time</l>
+
+         <l n="111" xml:id="l.111" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>Scentless Lyons’ roses,</l>
+         <!--LANGUAGE: should we tag "Lyons" as French?-->
+
+         <l n="112" xml:id="l.112" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="80" resp="Grove"/>Icy,</l>
+
+         <l n="113" xml:id="l.113" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="80" resp="Grove"/>Plastic,</l>
+
+         <l n="114" xml:id="l.114" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>Named after wives of Mayors.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> .</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="115" xml:id="l.115" part="I"><seg rend="justified">
+            Did Ingres paint a portrait of Madame Jacquemart</seg></l>
+
+         <l n="116" xml:id="l.116" part="F">André?</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="117" xml:id="l.117" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>In the Louvre</l>
+
+         <l n="118" xml:id="l.118" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>The Pietà of Avignon,</l>
+
+         <l n="119" xml:id="l.119" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>L'Olympe,</l>
+
+         <l n="120" xml:id="l.120" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="80" resp="Grove"/>Giles,</l>
+
+         <l n="121" xml:id="l.121" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Mantegna's Seven Deadly Sins,</l>
+
+         <l n="122" xml:id="l.122" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>The Chardins
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> ; </l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="123" xml:id="l.123" part="I"><seg rend="justified">
+            They arise, serene and unetiolated, one by one from</seg></l>
+
+         <l n="124" xml:id="l.124" part="F">their subterranean sleep of fivelong years.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <l n="125" xml:id="l.125" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Like Duncan they slept well.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="16" resp="Grove"/>
+
+         <l n="126" xml:id="l.126" part="I"><seg rend="justified">
+            President Wilson grins like a dog and runs about the</seg></l>
+
+         <l n="127" xml:id="l.127" part="M"><seg rend="justified">
+            city, sniffing with innocent enjoyment the diluvial</seg></l>
+
+         <l n="128" xml:id="l.128" part="F">urine of Gargantua.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="13" resp="Grove"/>
+
+         <l n="129" xml:id="l.129" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>The poplar buds are golden chrysalids
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> ; </l>
+
+         <l n="130" xml:id="l.130" rend="fromLeft(50pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>The Ballet of green Butterflies</l>
+
+         <l n="131" xml:id="l.131" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>Will soon begin.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="103" resp="Grove"/>(8
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> )</fw>
+
+         <milestone unit="page" n="8"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="39" resp="Grove"/>
+
+         <l n="132" xml:id="l.132" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="23" resp="Grove"/>During the cyclic 
+            <foreign xml:lang="fr">Grand Guignol</foreign> of Catholicism </l>
+
+         <l n="133" xml:id="l.133" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="72" resp="Grove"/>Shrieks,</l>
+
+         <l n="134" xml:id="l.134" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="77" resp="Grove"/>Lacerations,</l>
+
+         <l n="135" xml:id="l.135" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="72" resp="Grove"/>Bloody sweat——</l><!--TYPE: em dash-->
+
+         <l n="136" xml:id="l.136" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="42" resp="Grove"/>Le petit Jésus fait pipi.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="137" xml:id="l.137" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="81" resp="Grove"/>Lilac</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="138" xml:id="l.138" rend="face(allCaps)" part="I"><seg rend="justified">
+            SPRING IS <seg rend="fontsize(9pt)" part="N">S</seg> OLOMON'S LITTLE SISTER
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> ; SHE HAS NO </seg></l>
+
+         <l n="139" xml:id="l.139" rend="face(allCaps)" part="F">BREASTS.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="19" resp="Grove"/>
+
+         <l n="140" xml:id="l.140" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="23" resp="Grove"/>
+            <foreign xml:lang="fr">LAIT SUPERIEUR</foreign></l>
+
+         <l n="141" xml:id="l.141" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="54" resp="Grove"/>
+            <foreign xml:lang="fr">DE LA</foreign></l>
+
+         <l n="142" xml:id="l.142" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="3" resp="Grove"/>
+            <foreign xml:lang="fr">FERME DE RAMBOUILLET</foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="6" resp="Grove"/>
+         
+         <l n="143" xml:id="l.143" rend="face(allCaps) fontsize(11pt)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="3" resp="Grove"/>
+            <foreign xml:lang="fr">ICI ON CONSULTE</foreign></l>
+
+         <l n="144" xml:id="l.144" rend="face(allCaps) fontsize(11pt)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="23" resp="Grove"/>
+            <foreign xml:lang="fr">LE BOTTIN</foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="8" resp="Grove"/>
+         
+         <l n="145" xml:id="l.145" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="33" resp="Grove"/>
+            <foreign xml:lang="fr">CHARCUTERIE</foreign></l>
+
+         <l n="146" xml:id="l.146" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="10" resp="Grove"/>
+            <foreign xml:lang="fr">COMESTIBLES DE I<seg rend="fontsize(6pt caps)" part="N">RE</seg>CHOIX</foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="147" xml:id="l.147" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="81" resp="Grove"/><foreign xml:lang="fr">APERITIFS</foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="148" xml:id="l.148" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="45" resp="Grove"/>
+            <foreign xml:lang="fr">ALIMENTS DIABETIQUES</foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="149" xml:id="l.149" rend="face(allCaps) fromLeft(50pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>
+            <foreign xml:lang="fr">DEUIL EN 24 HEURES</foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="150" xml:id="l.150" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>
+            <hi rend="face(italics)"><foreign xml:lang="fr">Messieursetdames</foreign></hi></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="151" xml:id="l.151" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>Little temples of Mercury
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> ;</l>
+
+         <l n="152" xml:id="l.152" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="29" resp="Grove"/>The circumference of their
+               <foreign xml:lang="latn"><hi rend="face(italics)">templum</hi></foreign></l>
+
+         <l n="153" xml:id="l.153" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>A nice sense of scale,</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral) fromLeft(101pts)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="101" resp="Grove"/>(
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>9)</fw>
+
+         <milestone unit="page" n="9"/>
+         <milestone unit="spread" n="5"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="45" resp="Grove"/>
+
+         <l n="154" xml:id="l.154" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="35" resp="Grove"/>A golden drop of Harpagon’s blood,</l>
+
+         <l n="155" xml:id="l.155" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>Preserve from impious widening.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="156" xml:id="l.156" part="I"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="6" resp="Grove"/>Great bunches of lilac among syphons, vermouth,</seg></l>
+
+         <l n="157" xml:id="l.157" part="F">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="6" resp="Grove"/>Bocks, tobacco.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="158" xml:id="l.158" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>
+            <hi rend="face(italics)"><foreign xml:lang="fr">Messieursetdames</foreign></hi></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="159" xml:id="l.159" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>
+            <foreign xml:lang="fr">NE FERMEZ PAS LA PORTE</foreign></l>
+
+         <l n="160" xml:id="l.160" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="90" resp="Grove"/>
+            <foreign xml:lang="fr">S. V. P.</foreign></l>
+
+         <l n="161" xml:id="l.161" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>
+            <foreign xml:lang="fr">LE PRIMUS S'EN CHARGERA</foreign></l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="162" xml:id="l.162" part="I"><seg rend="justified">
+            At marble tables sit <foreign xml:lang="fr">ouvriers</foreign> in blue linen suits discuss-</seg></l>
+
+         <l n="163" xml:id="l.163" part="F">
+            ing<space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> : </l>
+
+         <l n="164" xml:id="l.164" rend="fromLeft(50pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>
+            <foreign xml:lang="fr">La journée de huit heures,</foreign></l>
+
+         <l n="165" xml:id="l.165" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>Whether Landru is a Sadist,</l>
+
+         <l n="166" xml:id="l.166" part="N"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>The learned seal at the 
+            <foreign xml:lang="fr">Nouveau Cirque</foreign></seg></l><!--LANGUAGE: place - should this be tagged-->
+
+         <l n="167" xml:id="l.167" part="N"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>Cottin.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="4" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <l n="168" xml:id="l.168" part="N">Echoes of Bossuet chanting dead queens.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="169" xml:id="l.169" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="59" resp="Grove"/>
+            <hi rend="face(italics)"><foreign xml:lang="fr">méticuleux</foreign></hi></l>
+
+         <l n="170" xml:id="l.170" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="59" resp="Grove"/>
+            <hi rend="face(italics)"><foreign xml:lang="fr">bélligerants</foreign></hi></l><!--TYPE: note mark on e - written in?-->
+
+         <l n="171" xml:id="l.171" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="59" resp="Grove"/>
+            <hi rend="face(italics)"><foreign xml:lang="fr">hebdomadaire</foreign></hi></l>
+
+         <l n="172" xml:id="l.172" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="59" resp="Grove"/>
+            <hi rend="face(italics)"><foreign xml:lang="fr">immonde</foreign></hi></l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="173" xml:id="l.173" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>The Roman Legions</l>
+
+         <l n="174" xml:id="l.174" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="59" resp="Grove"/>Wingèd</l>
+
+         <l n="175" xml:id="l.175" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="59" resp="Grove"/>Invisible</l>
+
+         <l n="176" xml:id="l.176" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>Fight their last fight in Gaul.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="100" resp="Grove"/>(10)</fw>
+
+         <milestone unit="page" n="10"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="33" resp="Grove"/>
+
+         <l n="177" xml:id="l.177" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="52" resp="Grove"/>The ghost of Père Lachaise</l>
+
+         <l n="178" xml:id="l.178" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>Is walking the streets,</l>
+
+         <l n="179" xml:id="l.179" part="I"><seg rend="justified">
+            He is draped in a black curtain embroidered with the</seg></l>
+
+         <l n="180" xml:id="l.180" part="F"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="181.5" resp="Grove"/>letter H,</seg></l>
+
+         <l n="181" xml:id="l.181" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="42" resp="Grove"/>He is hung with paper wreaths,</l>
+
+         <l n="182" xml:id="l.182" part="I"><seg rend="justified">
+            He is beautiful and horrible and the close friend of</seg></l>
+
+         <l n="183" xml:id="l.183" part="F"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="66.5" resp="Grove"/>Rousseau, the official of the 
+            <foreign xml:lang="fr">Douane</foreign>.</seg></l><!--LANGUAGE: should this be tagged? Do we include punctuation?--><!--JUSTIFICATION-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="184" xml:id="l.184" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>The unities are smashed,</l>
+
+         <l n="185" xml:id="l.185" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>The stage is thick with corpses.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="186" xml:id="l.186" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="72" resp="Grove"/>Kind clever 
+            <foreign xml:lang="fr"><hi rend="face(italics)">gaillards</hi></foreign></l>
+
+         <l n="187" xml:id="l.187" part="I"><seg rend="justified">
+            Their <foreign xml:lang="gr"><hi rend="face(italics)">eidola</hi>
+            </foreign> in hideous frames inset with the brass</seg></l><!--LANGUAGE: is this the right Greek tag?-->
+
+         <l n="188" xml:id="l.188" part="F">motto</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="189" xml:id="l.189" rend="type(6 pt caps) face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>
+            <foreign xml:lang="fr"> MORT AU CHAMP D<seg rend="type(9pt)" part="N">’</seg>
+               <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> HONNEUR
+               <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>
+               <seg rend="type(9pt)" part="N">;</seg></foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="190" xml:id="l.190" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>And little widows moaning</l>
+
+         <l n="191" xml:id="l.191" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>
+            <foreign><hi rend="face(italics)">Le pauvre grand
+               <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>!</hi></foreign></l>
+
+         <l n="192" xml:id="l.192" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>
+            <foreign xml:lang="fr"><hi rend="face(italics)">Le pauvre grand
+               <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>!</hi></foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="193" xml:id="l.193" part="I"><seg rend="justified">
+            And <foreign xml:lang="fr">petites bourgeoises</foreign> with tight lips and strident</seg></l>
+
+         <l n="194" xml:id="l.194" part="M"><seg rend="justified">
+            voices are counting out the change and saying <foreign xml:lang="fr"><hi rend="face(italics)">Mes-</hi></foreign></seg></l>
+
+         <l n="195" xml:id="l.195" part="M"><seg rend="justified">
+            <foreign xml:lang="fr"><hi rend="face(italics)">sieursetdames</hi></foreign> and their hearts are the ruined province</seg></l>
+
+         <l n="196" xml:id="l.196" part="F">of Picardie.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="4" resp="Grove"/>.</l><!--LANGUAGE: should "Picardie" be tagged-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="197" xml:id="l.197" part="I"><seg rend="justified">
+            They are not like us, who, ghoul-like, bury our friends</seg></l>
+
+         <l n="198" xml:id="l.198" part="F">a score of times before they’re dead but——</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="199" xml:id="l.199" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>Never never again will the Marne</l>
+
+         <l n="200" xml:id="l.200" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>Flow between happy banks.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="201" xml:id="l.201" part="N">
+            <ref xml:id="a.7">It is pleasant to sit on the <foreign xml:lang="fr">Grand Boulevards</foreign>——</ref></l>
+
+         <l n="202" xml:id="l.202" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>They smell of</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="100" resp="Grove"/>(11)</fw>
+
+         <milestone unit="page" n="11"/>
+         <milestone unit="spread" n="6"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="33" resp="Grove"/>
+         
+         <l n="203" xml:id="l.203" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="64" resp="Grove"/>
+            <foreign xml:lang="latn">Cloacæ</foreign></l><!--TYPE: note special character-->
+
+         <l n="204" xml:id="l.204" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>Hot indiarubber</l>
+
+         <l n="205" xml:id="l.205" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="62" resp="Grove"/>
+            <foreign xml:lang="fr">Poudre de riz</foreign></l>
+
+         <l n="206" xml:id="l.206" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>Algerian tobacco</l>
+
+         <l n="207" xml:id="l.207" part="N"><seg rend="justified">
+            Monsieur Jourdain in the blue and red of the Zouaves</seg></l>
+         <!--LANGUAGE: does Zouaves need to be tagged-->
+
+         <l n="208" xml:id="l.208" part="N"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="31" resp="Grove"/>Is 
+            <foreign xml:lang="fr">premier danseur</foreign> in the Ballet Turque </l><!--LANGUAGE: ballet turque?-->
+
+         <l n="209" xml:id="l.209" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>
+            <foreign xml:lang="fr">’Ya bon!</foreign></l><!--LANGUAGE: note slang?-->
+
+         <l n="210" xml:id="l.210" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>
+            <foreign xml:lang="fr">Mamamouchi</foreign></l><!--LANGUAGE: I think this is French fake Turkish? How note?-->
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="211" xml:id="l.211" part="N"><seg rend="justified">
+            <seg rend="face(allCaps)" part="N">YANKEES</seg><seg rend="face(upsidedown)" part="N">
+               <seg rend="fontsize(7pt)" part="N">-</seg><seg rend="fontsize(6pt)" part="N">-</seg></seg><!--TYPE: how note upside down-->
+            ‘‘and say besides that in Aleppo once’’
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> "</seg></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="212" xml:id="l.212" part="I"><seg rend="justified">
+            Many a <foreign xml:lang="fr"><hi rend="face(italics)">Mardi Gras</hi></foreign> and 
+            <foreign xml:lang="fr"><hi rend="face(italics)">Carême Prenant</hi></foreign> of the</seg></l><!--LANGUAGE: should mardi gras be tagged-->
+
+         <l n="213" xml:id="l.213" part="F">Peace Carnival;</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="214" xml:id="l.214" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>Crape veils,</l>
+
+         <l n="215" xml:id="l.215" part="N"><seg rend="justified">
+            Mouths pursed up with lip<seg rend="fontsize(7pt) face(upsidedown)" part="N">-</seg>
+            salve as if they had just said:<!--TYPE: How note upside down--></seg></l>
+
+         <l n="216" xml:id="l.216" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>
+            <foreign xml:lang="fr"><hi rend="face(italics)">Cho
+               <space type="character" dim="horizontal" unit="pts" quantity="2.5" resp="Grove"/> -
+               <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>co
+               <space type="character" dim="horizontal" unit="pts" quantity="2.5" resp="Grove"/>-
+               <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> lat 
+            </hi><space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>
+               <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> .
+               <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> .
+               <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.</foreign></l>
+
+         <l n="217" xml:id="l.217" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/><foreign xml:lang="fr">‘‘
+               <space type="character" dim="horizontal" unit="pts" quantity="1.5" resp="Grove"/> Elles se balancent sur les hanches.
+               <space type="character" dim="horizontal" unit="pts" quantity="1.5" resp="Grove"/>’’ </foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="218" xml:id="l.218" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>Lizard-eyes,</l> <!--TYPE: how note this damaged hyphen-->
+
+         <l n="219" xml:id="l.219" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>Assyrian beards,</l>
+
+         <l n="220" xml:id="l.220" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="71" resp="Grove"/>Boots with cloth tops—–</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="221" xml:id="l.221" part="I"><seg rend="justified">
+            The tart little race, whose brain, the Arabs said, was</seg></l>
+
+         <l n="222" xml:id="l.222" part="F"><seg rend="justified">
+            one of the three perches of the Spirit of God.</seg></l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="223" xml:id="l.223" part="N"><seg rend="justified"><foreign xml:lang="fr">
+            <hi rend="face(italics)">Ouiouioui, c’esi passionnant——on en a pour son argent.</hi></foreign></seg></l>
+
+         <l n="224" xml:id="l.224" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>
+            <foreign xml:lang="fr"><hi rend="face(italics)">Le fromage n’est pas un plat logique.</hi></foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="225" xml:id="l.225" part="N">
+            <foreign xml:lang="fr"><hi rend="face(italics)">A a a a a oui c’est un délicieux garçon</hi></foreign></l>
+
+         <l n="226" xml:id="l.226" part="I"><seg rend="justified"><foreign xml:lang="fr">
+            <hi rend="face(italics)">Il me semble que toute femme sincère doit se retrouver</hi></foreign></seg></l>
+
+         <l n="227" xml:id="l.227" part="F"><foreign xml:lang="fr"><hi rend="face(italics)">en Anna Karénine.</hi></foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="9" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral) fromLeft(100pts)">(12)</fw>
+
+         <milestone unit="page" n="12"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="33" resp="Grove"/>
+
+         <l n="228" xml:id="l.228" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="59" resp="Grove"/>Never the catalepsy of the Teuton</l><!--LANGUAGE: should Teuton be tagged-->
+
+         <l n="229" xml:id="l.229" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="79" resp="Grove"/>What time</l>
+
+         <l n="230" xml:id="l.230" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="79" resp="Grove"/>Subaqueous</l>
+
+         <l n="231" xml:id="l.231" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="79" resp="Grove"/>Cell on cell</l>
+
+         <l n="232" xml:id="l.232" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="79" resp="Grove"/>Experience</l>
+
+         <l n="233" xml:id="l.233" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="79" resp="Grove"/>Very slowly</l>
+
+         <l n="234" xml:id="l.234" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="79" resp="Grove"/>Is forming up</l>
+
+         <l n="235" xml:id="l.235" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="39" resp="Grove"/>Into something beautiful——awful——huge</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="236" xml:id="l.236" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="48" resp="Grove"/>The coming to
+            <space type="character" dim="horizontal" unit="pts" quantity="10" resp="Grove"/> .
+            <space type="character" dim="horizontal" unit="pts" quantity="10.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="12" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="10.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="10.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="10.5" resp="Grove"/>.</l>
+
+         <l n="237" xml:id="l.237" part="N">Thick halting speech——<ref xml:id="a.8">the curse of vastness.</ref></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="13" resp="Grove"/>
+         
+         <ab part="N"><!--XML: why does this have to be here-->
+            <ref xml:id="a.9">
+               <l n="238" xml:id="l.238" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="68" resp="Grove"/>The first of May</l>
+               <l n="239" xml:id="l.239" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="103" resp="Grove"/>T</l>
+               <l n="240" xml:id="l.240" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="103" resp="Grove"/>h</l>
+               <l n="241" xml:id="l.241" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="103" resp="Grove"/>e</l>
+               <l n="242" xml:id="l.242" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="103" resp="Grove"/>r</l>
+               <l n="243" xml:id="l.243" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="103" resp="Grove"/>e</l>
+               
+               <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+               
+               <l n="244" xml:id="l.244" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="104" resp="Grove"/>i </l>
+               <l n="245" xml:id="l.245" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="104" resp="Grove"/>s </l>
+               
+               <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+               
+               <l n="246" xml:id="l.246" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="103" resp="Grove"/>n</l>
+               <l n="247" xml:id="l.247" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="103" resp="Grove"/>o</l>
+               
+               <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+               
+               <l n="248" xml:id="l.248" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="104" resp="Grove"/>l </l>
+               <l n="249" xml:id="l.249" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="104" resp="Grove"/>i </l>
+               <l n="250" xml:id="l.250" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="104" resp="Grove"/>l </l>
+               <l n="251" xml:id="l.251" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="103" resp="Grove"/>y</l>
+               
+               <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+               
+               <l n="252" xml:id="l.252" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="103" resp="Grove"/>o</l>
+               <l n="253" xml:id="l.253" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="104" resp="Grove"/>f </l>
+              
+               <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+               
+               <fw type="pageNum" rend="type(9 pt Old Style numeral)"> 
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="98" resp="Grove"/>(13<space
+                     type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> ) </fw>
+               
+               <milestone unit="page" n="13"/>
+               <milestone unit="spread" n="8"/>
+               
+               <space type="margin" dim="vertical" unit="pts" quantity="31" resp="Grove"/>
+               
+               <l n="254" xml:id="l.254" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="107" resp="Grove"/>t</l><!--SPACING: how note?-->
+               <l n="255" xml:id="l.255" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="107" resp="Grove"/>h</l><!--SPACING: how note?-->
+               <l n="256" xml:id="l.256" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="107" resp="Grove"/>e</l>
+               
+               <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+               
+               <l n="257" xml:id="l.257" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="107" resp="Grove"/>v</l>
+               <l n="258" xml:id="l.258" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="107" resp="Grove"/>a</l>
+               <l n="259" xml:id="l.259" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="107" resp="Grove"/>l</l><!--SPACING: how note?-->
+               <l n="260" xml:id="l.260" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="107" resp="Grove"/>l</l><!--SPACING: how note?-->
+               <l n="261" xml:id="l.261" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="107" resp="Grove"/>e</l>
+               <l n="262" xml:id="l.262" part="N">
+                  <space type="alignL" dim="horizontal" unit="pts" quantity="107" resp="Grove"/>y</l>
+               
+               <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+            </ref>
+         </ab>
+
+
+         <l n="263" xml:id="l.263" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="11" resp="Grove"/>There was a ritual fight for her sweet body</l>
+
+         <l n="264" xml:id="l.264" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>Between two virgins——Mary and the moon</l><!--TYPE: check-->
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="265" xml:id="l.265" rend="fromLeft(40pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>The wicked 
+            <ref xml:id="a.10">April moon</ref>.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="266" xml:id="l.266" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="49" resp="Grove"/>The silence of 
+            <foreign xml:lang="fr"><hi rend="face(italics)">la grève</hi></foreign>: </l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <l n="267" xml:id="l.267" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>Rain</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="268" xml:id="l.268" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>The Louvre is melting into mist</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="269" xml:id="l.269" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="38.5" resp="Grove"/>It will soon be transparent</l>
+
+         <l n="270" xml:id="l.270" part="I">
+            <seg rend="justified">And through it will glimmer the mysterious island</seg></l>
+
+         <l n="271" xml:id="l.271" part="F">gardens of the Place du Carrousel.</l><!--LANGUAGE: should "Place du Carrousel" be tagged--><!--JUSTIFICATION-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="272" xml:id="l.272" part="I"><seg rend="justified">
+            The Seine, old egotist, meanders imperturbably to-</seg></l>
+
+         <l n="273" xml:id="l.273" part="F"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="157" resp="Grove"/>wards the sea,</seg></l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="274" xml:id="l.274" part="N">Ruminating on weeds and rain
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="5.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/>.</l>
+
+         <l n="275" xml:id="l.275" part="N"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="10" resp="Grove"/>If through his sluggish watery sleep come dreams</seg></l>
+
+         <l n="276" xml:id="l.276" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="19" resp="Grove"/>They are the blue ghosts of king
+            <seg rend="fontsize(7pt)" part="N">-</seg>fishers.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="99" resp="Grove"/>(
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> 14) </fw>
+
+         <milestone unit="page" n="14"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="36" resp="Grove"/>
+
+         <l n="277" xml:id="l.277" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="43" resp="Grove"/>The Eiffel Tower is two dimensional,</l>
+
+         <l n="278" xml:id="l.278" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="43" resp="Grove"/>Etched on thick white paper.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="279" xml:id="l.279" part="I"><seg rend="justified">
+            <foreign xml:lang="fr"><hi rend="face(italics)">Poilus</hi></foreign> in wedgwood blue with bundles 
+            <foreign xml:lang="fr"><hi rend="face(italics)">Terre de Sienne</hi></foreign></seg></l>
+
+         <l n="280" xml:id="l.280" part="M"><seg rend="justified">are camping round the gray sphinx of the Tuileries</seg></l>
+
+         <l n="281" xml:id="l.281" part="M"><seg rend="justified">
+            They look as if a war<seg rend="fontsize(8pt)" part="N">-</seg>artist were making a sketch of</seg></l>
+
+         <l n="282" xml:id="l.282" part="M"><seg rend="justified">
+            them in chalks, to be ‘<space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> edited
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> ’ in the Rue des Pyram
+            <seg rend="fontsize(7pt)" part="N">-</seg></seg></l><!--LANGUAGE: should Rue.. be tagged-->
+
+         <l n="283" xml:id="l.283" part="F">ides at 10 francs a copy.</l><!--LANGUAGE: tag 10 francs?-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="284" xml:id="l.284" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="87" resp="Grove"/>
+            <foreign xml:lang="fr"><hi rend="face(italics)">Désœvrement</hi></foreign>,</l><!--TYPE: note special character-->
+
+         <l n="285" xml:id="l.285" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="87" resp="Grove"/>Apprehension<space
+               type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> ; </l>
+
+         <l n="286" xml:id="l.286" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="72" resp="Grove"/>Vronsky and Anna</l>
+
+         <l n="287" xml:id="l.287" part="N"><seg rend="alignedR"><!--RIGHT ALIGNED-->
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>Starting up in separate beds in a cold sweat</seg></l>
+
+         <l n="288" xml:id="l.288" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="62" resp="Grove"/>Reading calamity in the same dream</l>
+
+         <l n="289" xml:id="l.289" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="62" resp="Grove"/>Of a gigantic sinister<foreign xml:lang="ru">mujik</foreign>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.<!--LANGUAGE: is Russian tag correct?-->
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="4" resp="Grove"/>.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="290" xml:id="l.290" part="N"><seg rend="justified"><!--JUSTIFICATION-->
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> : 
+            Whatever happens, some day it will look beautiful</seg></l>
+
+         <l n="291" xml:id="l.291" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="62" resp="Grove"/>Clio is a great French painter,</l>
+
+         <l n="292" xml:id="l.292" part="N"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="33" resp="Grove"/>She walks upon the waters and they are still.</seg></l>
+
+         <l n="293" xml:id="l.293" part="N"><seg rend="justified">
+            Shadrach, Meshach, and Abednego stand motionless</seg></l>
+
+         <l n="294" xml:id="l.294" part="N"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="107" resp="Grove"/>and plastic mid the flames.</seg></l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="295" xml:id="l.295" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>Manet’s 
+            <foreign xml:lang="fr"><hi rend="face(italics)">Massacres de Jours de Juin</hi></foreign>,</l>
+         <!--LANGUAGE: should this be tagged in French (same below)-->
+
+         <l n="296" xml:id="l.296" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>David’s
+            <foreign xml:lang="fr"><hi rend="face(italics)"> Prise de la Bastille</hi></foreign>,</l>
+
+         <l n="297" xml:id="l.297" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>Poussin’s 
+            <foreign xml:lang="fr"><hi rend="face(italics)">Fronde</hi></foreign>,</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="298" xml:id="l.298" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>Hang in a quiet gallery.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="14" resp="Grove"/>
+
+         <l n="299" xml:id="l.299" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="21" resp="Grove"/>All this time the Virgin has not been idle 
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> ; </l>
+
+         <l n="300" xml:id="l.300" part="I"><seg rend="justified">
+            <ref xml:id="a.11">The windows of <foreign xml:lang="fr">les Galéries
+               Lafayette</foreign></ref>, <foreign xml:lang="fr">le Bon Marché</foreign>, </seg></l>
+
+         <l n="301" xml:id="l.301" part="F"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="157" resp="Grove"/>
+            <foreign xml:lang="fr">la Samaritaine,</foreign></seg></l><!--LANGUAGE: proper nouns tagged correctly?-->
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="100" resp="Grove"/>(15)</fw>
+
+         <milestone unit="page" n="15"/>
+         <milestone unit="spread" n="8"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="40" resp="Grove"/>
+
+         <l n="302" xml:id="l.302" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Hold holy bait</l>
+
+         <l n="303" xml:id="l.303" part="I"><seg rend="justified">
+            Waxen Pandoras in white veils and ties of her own</seg></l>
+
+         <l n="304" xml:id="l.304" part="F"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="180" resp="Grove"/>decking;</seg></l>
+
+
+         <l n="305" xml:id="l.305" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>
+            <foreign xml:lang="fr">Catéchisme de Persévérance,</foreign></l>
+
+         <l n="306" xml:id="l.306" part="I"><seg rend="justified">
+            The decrees of the Seven Œcumenical Councils re-</seg></l><!--TYPE: note special char-->
+
+         <l n="307" xml:id="l.307" part="F"> duced to the <hi rend="face(italics)">format</hi> of the 
+            <foreign xml:lang="fr"><hi rend="face(italics)">Bibliothèque Rose</hi></foreign>,</l><!--LANGUAGE: should this be tagged?-->
+
+         <l n="308" xml:id="l.308" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>
+            <foreign><hi rend="face(italics)">Première Communion,</hi></foreign></l>
+
+         <l n="309" xml:id="l.309" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>(
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> Prometheus has swallowed the bait
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> ) </l>
+
+         <l n="310" xml:id="l.310" rend="fromLeft(60pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/><foreign xml:lang="fr">Petits Lycéens,</foreign></l>
+
+         <l n="311" xml:id="l.311" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="55" resp="Grove"/>
+            <foreign xml:lang="fr">Por<seg rend="fontsize(7pt)" part="N">-</seg>no<seg rend="fontsize(7pt)" part="N">-
+            </seg> gra<seg rend="fontsize(7pt)" part="N">-</seg>phie,</foreign></l>
+
+         <l n="312" xml:id="l.312" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>Charming pigmy brides,</l>
+
+         <l n="313" xml:id="l.313" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>Little Saint Hugh avenged—–</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="314" xml:id="l.314" rend="fontsize(6pt caps) face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>THE CHILDREN EAT THE JEW.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="315" xml:id="l.315" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>PHOTO MIDGET</l>
+         <space type="leading" dim="vertical" unit="pts" quantity="16" resp="Grove"/>
+
+         <l n="316" xml:id="l.316" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="80" resp="Grove"/>Heigh ho
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>!</l>
+
+         <l n="317" xml:id="l.317" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>I wade knee
+            <seg rend="fontsize(7pt)" part="N">-</seg>deep in dreams—– </l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="318" xml:id="l.318" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="80" resp="Grove"/>Heavy sweet going</l>
+
+         <l n="319" xml:id="l.319" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>As through a field of hay in Périgord.</l>
+         <!--LANGUAGE: should Perigord be tagged?-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="320" xml:id="l.320" part="I"><seg rend="justified">
+            The Louvre, the Ritz, the Palais<seg rend="fontsize(7pt)" part="F">-</seg>
+            Royale, <foreign xml:lang="fr">the Hôtel</foreign></seg></l><!--LANGUAGE: should places be language tagged?-->
+
+         <l n="321" xml:id="l.321" part="N"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="182" resp="Grove"/>
+            <foreign xml:lang="fr">de Ville</foreign></seg></l><!--LANGUAGE-->
+
+         <l n="322" xml:id="l.322" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Are light and frail</l>
+
+         <l n="323" xml:id="l.323" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Plaster pavilions of pleasure</l>
+
+         <l n="324" xml:id="l.324" part="N"><seg rend="alignedR">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Set up to serve the ten days junketing</seg></l>
+
+         <l n="325" xml:id="l.325" rend="fromLeft(60pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Of citizens in masks and dominoes</l>
+
+         <l n="326" xml:id="l.326" part="N"><seg rend="justified">
+            <foreign xml:lang="fr"><hi rend="face(italics)">A l’occasion du marriage de Monseigneur le Dauphin.</hi></foreign></seg></l><!--JUSTIFICATION-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="97" resp="Grove"/>(16)</fw>
+
+         <milestone unit="page" n="16"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="44" resp="Grove"/>
+
+         <l n="327" xml:id="l.327" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>From the top floor of an old
+               <foreign xml:lang="fr">Hôtel</foreign>,</l>
+
+         <l n="328" xml:id="l.328" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="90" resp="Grove"/>Tranced,</l>
+
+         <l n="329" xml:id="l.329" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="29" resp="Grove"/>I gaze down at the narrow rue de Beaune.</l>
+         <!--LANGUAGE: should rue de Beaune be tagged?-->
+
+         <l n="330" xml:id="l.330" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="29" resp="Grove"/>Hawkers chant their wares liturgically
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>:</l>
+
+         <l n="331" xml:id="l.331" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>Hatless women in black shawls</l>
+
+         <l n="332" xml:id="l.332" part="N">Carry long loaves
+            <seg rend="type(8pt)" part="N">--</seg> Triptolemos in swaddling clothes
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>:</l>
+
+         <l n="333" xml:id="l.333" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>Workmen in pale blue
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>:</l>
+
+         <l n="334" xml:id="l.334" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="51" resp="Grove"/>Barrows of vegetables
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>:</l>
+
+         <l n="335" xml:id="l.335" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>Busy dogs
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>:</l>
+
+         <l n="336" xml:id="l.336" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="55" resp="Grove"/>They come and go.</l>
+
+         <l n="337" xml:id="l.337" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>They are very small.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         <l n="338" xml:id="l.338" part="N"> Stories.
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>
+            <space type="character" dim="horizontal" unit="pts" quantity="5.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="5.5" resp="Grove"/>.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="339" xml:id="l.339" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>The lost romance</l>
+
+         <l n="340" xml:id="l.340" rend="fromLeft(29pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="29" resp="Grove"/>Penned by some Ovid, an unwilling thrall</l>
+
+         <l n="341" xml:id="l.341" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>In Fairyland,</l>
+
+         <l n="342" xml:id="l.342" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>No one knows its name
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>;</l>
+
+         <l n="343" xml:id="l.343" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="20" resp="Grove"/>It was the guild-secret of the Italian painters.</l>
+
+         <l n="344" xml:id="l.344" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="25" resp="Grove"/>They spent their lives in illustrating it.
+            <space type="character" dim="horizontal" unit="pts" quantity="4" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <l n="345" xml:id="l.345" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="25" resp="Grove"/>The Chinese village in a genius’s mind.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <l n="346" xml:id="l.346" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="20" resp="Grove"/>Little funny things ceaselessly happening.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="19" resp="Grove"/>
+
+         <l n="347" xml:id="l.347" part="I"><seg rend="justified">
+            In the Ile Saint<seg rend="fontsize(7pt)" part="N">-
+         </seg>Louis, in the rue Saint Antoine, in</seg></l>
+
+         <l n="348" xml:id="l.348" part="F">the Place des Vosges</l>
+
+         <l n="349" xml:id="l.349" part="N"><seg rend="justification">
+            The Seventeenth Century lies exquisitely dying.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="4" resp="Grove"/>.</seg></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="101" resp="Grove"/>(17)</fw>
+
+         <milestone unit="page" n="17"/>
+         <milestone unit="spread" n="9"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="136" resp="Grove"/>
+         
+         <l n="350" xml:id="l.350" part="N"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="79" resp="Grove"/>H
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>u
+            <space type="character" dim="horizontal" unit="pts" quantity="2.5" resp="Grove"/>s
+            <space type="character" dim="horizontal" unit="pts" quantity="2.5" resp="Grove"/>s
+            <space type="character" dim="horizontal" unit="pts" quantity="2.5" resp="Grove"/>s
+            <space type="character" dim="horizontal" unit="pts" quantity="2.5" resp="Grove"/>h</l><!--note spacing of letters-->
+
+         <!--HOLD FOR MUSICAL NOTATION-->
+
+         <!--dim - - in - - u - en - do. PPP-->
+
+
+         <l n="351" xml:id="l.351" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="20" resp="Grove"/>In the parish of Saint Thomas d’Aquin there is</l>
+
+         <l n="352" xml:id="l.352" part="N">an alley called <foreign xml:lang="fr">l’impasse des Deux Anges</foreign></l><!--LANGUAGE: should this be tagged?-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="353" xml:id="l.353" rend="fromLeft(30pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>Houses with rows of impassive windows
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>;</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="354" xml:id="l.354" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="59" resp="Grove"/>They are like blind dogs</l>
+
+         <l n="355" xml:id="l.355" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>The only thing that they can see are ghosts</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="356" xml:id="l.356" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>Hark to the small dry voice</l>
+
+         <l n="357" xml:id="l.357" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>As of an old nun chanting Masses</l>
+
+         <l n="358" xml:id="l.358" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="15" resp="Grove"/>For the soul of a brother killed at Sebastopol.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="359" xml:id="l.359" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="80" resp="Grove"/>
+            <foreign xml:lang="fr">MOLIERE</foreign></l>
+
+         <l n="360" xml:id="l.360" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="85" resp="Grove"/>
+            <foreign xml:lang="fr">EST MORT</foreign></l>
+
+         <l n="361" xml:id="l.361" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>
+            <foreign xml:lang="fr">DANS CETTE MAISON</foreign></l>
+
+         <l n="362" xml:id="l.362" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>
+            <foreign xml:lang="fr">Le 17 Fevrier 1673</foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="363" xml:id="l.363" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="80" resp="Grove"/>
+            <foreign xml:lang="fr">VOLTAIRE</foreign></l>
+
+         <l n="364" xml:id="l.364" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="80" resp="Grove"/>
+            <foreign xml:lang="fr">EST MORT</foreign></l>
+
+         <l n="365" xml:id="l.365" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>
+            <foreign xml:lang="fr">DANS CETTE MAISON</foreign></l>
+
+         <l n="366" xml:id="l.366" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>
+            <foreign xml:lang="fr">LE 30 MAI 1778</foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="100" resp="Grove"/>(18)</fw>
+
+         <milestone unit="page" n="18"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="41.5" resp="Grove"/>
+
+         <l n="367" xml:id="l.367" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="81" resp="Grove"/>
+            <foreign xml:lang="fr">CHATEAUBRIAND</foreign></l>
+
+         <l n="368" xml:id="l.368" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="81" resp="Grove"/>
+            <foreign xml:lang="fr">EST MORT</foreign></l>
+
+         <l n="369" xml:id="l.369" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>
+            <foreign xml:lang="fr">DANS CETTE MAISON</foreign></l>
+
+         <l n="370" xml:id="l.370" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>
+            <foreign xml:lang="fr">LE 4 JUILLET 1848</foreign></l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="371" xml:id="l.371" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="61" resp="Grove"/>That is not all,</l>
+
+         <l n="372" xml:id="l.372" part="I">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="24" resp="Grove"/>Paradise cannot hold for long the famous dead</l>
+
+         <l n="373" xml:id="l.373" part="F">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="165" resp="Grove"/>of Paris.
+            <space type="character" dim="horizontal" unit="pts" quantity="4.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="4.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="4.5" resp="Grove"/>.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="374" xml:id="l.374" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="50" resp="Grove"/>There are 
+            <foreign xml:lang="fr"><hi rend="face(italics)">les Champs Elysées</hi></foreign>
+            <space type="character" dim="horizontal" unit="pts" quantity="1" resp="Grove"/>!</l><!--LANGUAGE-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="375" xml:id="l.375" part="I">Sainte-Beuve, a tight bouquet in his hand for Madame</l><!--JUSTIFICATION-->
+
+         <l n="376" xml:id="l.376" part="F">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="163" resp="Grove"/>Victor-Hugo,</l><!--JUSTIFICATION-->
+
+         <l n="377" xml:id="l.377" part="N">Passes on the Pont-Neuf the duc de la Rochefoucauld</l><!--LANGUAGE: should any of this betagged?--><!--JUSTIFICATION-->
+
+         <l n="378" xml:id="l.378" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>With a superbly leisurely gait</l>
+
+         <l n="379" xml:id="l.379" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Making for the 
+            <foreign xml:lang="fr"><hi rend="face(italics)">salon d’automne</hi></foreign></l>
+
+         <l n="380" xml:id="l.380" rend="fromLeft(60pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Of Madame de Lafayette
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>;</l><!--LANGUAGE-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="381" xml:id="l.381" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>They cannot see each other.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="19" resp="Grove"/>
+
+         <l n="382" xml:id="l.382" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>
+            <foreign xml:lang="fr">Il fait lourd,</foreign></l>
+
+         <l n="383" xml:id="l.383" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="49" resp="Grove"/>The dreams have reached my waist.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="384" xml:id="l.384" part="N">We went to Benediction in Notre<seg rend="fontsize(7pt)" part="N">-
+         </seg><space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> Dame
+            <seg rend="fontsize(7pt)" part="N">-</seg>des<seg rend="fontsize(7pt)" part="N">-</seg>Champs,</l><!--LANGUAGE-->
+
+         <l n="385" xml:id="l.385" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Droning.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="4" resp="Grove"/>droning.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="4" resp="Grove"/>droning.</l>
+
+         <l n="386" xml:id="l.386" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="39" resp="Grove"/>The Virgin sits in her garden
+            <space type="character" dim="horizontal" unit="pts" quantity="1" resp="Grove"/>; </l>
+
+         <l n="387" xml:id="l.387" part="N">She wears the blue habit and the wingèd linen head-</l>
+
+         <l n="388" xml:id="l.388" part="N">dress of the nuns of Saint Vincent de Paul.</l><!--language tag?-->
+
+         <l n="389" xml:id="l.389" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="29" resp="Grove"/>The Holy Ghost coos in his dove
+            <seg rend="fontsize(?pt)" part="N">-</seg>cot.</l>
+
+         <l n="390" xml:id="l.390" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="24" resp="Grove"/>The Seven Stages
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/>of the Cross are cut in box,</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="100" resp="Grove"/>(19)</fw>
+
+         <milestone unit="page" n="19"/>
+         <milestone unit="spread" n="10"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="40" resp="Grove"/>
+
+         <l n="391" xml:id="l.391" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>Lilies bloom, blue, green, and pink,</l>
+
+         <l n="392" xml:id="l.392" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="35" resp="Grove"/>The bulbs were votive offerings</l>
+
+         <l n="393" xml:id="l.393" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>From a converted Jap.</l>
+
+         <l n="394" xml:id="l.394" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="44" resp="Grove"/>An angelic troubadour</l>
+
+         <l n="395" xml:id="l.395" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Sings her songs</l>
+
+         <l n="396" xml:id="l.396" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="44" resp="Grove"/>Of little venial sins.</l>
+
+         <l n="397" xml:id="l.397" rend="fromLeft(20pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="20" resp="Grove"/>Upon the wall of sunset
+            <seg rend="fontsize(7pt)" part="N">-</seg>sky wasps never fret </l>
+
+         <l n="398" xml:id="l.398" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>The plums of Paradise.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="399" xml:id="l.399" part="N">
+            <foreign xml:lang="fr"><hi rend="face(italics)">
+               <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>La Liberté La Press
+               <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> ! </hi></foreign></l>
+
+         <l n="400" xml:id="l.400" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>
+            <foreign xml:lang="fr"><hi rend="face(italics)">La Liberté La Presse
+               <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>!</hi></foreign></l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="401" xml:id="l.401" rend="fromLeft(20pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="20" resp="Grove"/>The sun is sinking behind
+               <foreign xml:lang="fr">le Petit-Palais.</foreign></l><!--LANGUAGE-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="402" xml:id="l.402" part="N"> In the Algerian desert they are shouting the Koran</l><!--JUSTIFICATION-->
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="403" xml:id="l.403" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>
+            <foreign xml:lang="fr"><hi rend="face(italics)">La Liberté La Presse
+               <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>!</hi></foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="404" xml:id="l.404" rend="fromLeft(40pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>The sky is apricot
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>;</l>
+
+         <l n="405" xml:id="l.405" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>Against it there pass</l>
+
+         <l n="406" xml:id="l.406" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>Across the Pont Solférino</l><!--LANGUAGE-->
+
+         <l n="407" xml:id="l.407" rend="fromLeft(30pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>
+            <foreign xml:lang="fr">Fiacres</foreign> and little people all black,</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="408" xml:id="l.408" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="35" resp="Grove"/>Flies nibbling the celestial apricot——</l>
+
+         <l n="409" xml:id="l.409" part="I">That one broad
+            <seg rend="fontsize(7pt)" part="N">-</seg>brimmed hat and <foreign xml:lang="fr">tippeted pelisse</foreign></l><!--LANGUAGE: is this tag right?--><!--JUSTIFICATION-->
+
+         <l n="410" xml:id="l.410" part="F">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="148" resp="Grove"/>must be a priest.</l><!--JUSTIFICATION-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="411" xml:id="l.411" part="I"> They are black and two<seg rend="fontsize(7pt)" part="N">-
+         </seg>dimensional and look like </l><!--JUSTIFICATION-->
+
+         <l n="412" xml:id="l.412" part="F"> silhouettes of Louis<seg rend="fontsize(7pt)" part="N">-</seg>Philippe citizens.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+
+         <l n="413" xml:id="l.413" part="I"> All down the Quais the <foreign xml:lang="fr">bouquinistes</foreign> shut their</l><!--JUSTIFICATION-->
+
+         <l n="414" xml:id="l.414" part="F">green boxes.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="100" resp="Grove"/>(20)</fw>
+
+         <milestone unit="page" n="20"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="43" resp="Grove"/>
+
+         <l n="415" xml:id="l.415" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="43" resp="Grove"/>From the VIIme arrondissement</l><!--LANGUAGE-->
+
+         <l n="416" xml:id="l.416" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="43" resp="Grove"/>Night like a vampire</l>
+
+         <l n="417" xml:id="l.417" rend="fromLeft(43pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="43" resp="Grove"/>Sucks all colour, all sound.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="418" xml:id="l.418" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="16" resp="Grove"/>The winds are sleeping in their 
+            <foreign xml:lang="fr">Hyperbórean</foreign> cave
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>; </l><!--JUSTIFICATION-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="419" xml:id="l.419" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="14" resp="Grove"/>The narrow streets bend proudly to the stars
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>; </l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+        
+         <l n="420" xml:id="l.420" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="12" resp="Grove"/>From time to time a taxi hoots like an owl.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="13" resp="Grove"/>
+
+         <l n="421" xml:id="l.421" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="7" resp="Grove"/>But behind the ramparts of the Louvre</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         <l n="422" xml:id="l.422" part="I">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>Freud has dredged the river and, grinning horribly,</l>
+
+         <l n="423" xml:id="l.423" part="F">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>waves his garbage in a glare of electricity.</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="424" xml:id="l.424" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="91" resp="Grove"/>Taxis,</l>
+
+         <l n="425" xml:id="l.425" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="91" resp="Grove"/>Taxis,</l>
+
+         <l n="426" xml:id="l.426" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="91" resp="Grove"/>Taxis,</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+
+         <l n="427" xml:id="l.427" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>They moan and yell and squeak</l>
+
+         <l n="428" xml:id="l.428" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>Like a thousand tom
+            <seg rend="fontsize(7pt)" part="N">-</seg>cats in rut.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="429" xml:id="l.429" part="N">The whores like lions are seeking their meat from God
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>: </l><!--JUSTIFICATION-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="430" xml:id="l.430" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="21" resp="Grove"/>An English
+               <foreign xml:lang="it">padre</foreign> tilts with the Moulin Rouge
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>:</l><!--LANGUAGE-->
+
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="431" xml:id="l.431" part="I">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>
+            Crotchets and quavers have the heads of niggers and</l><!--JUSTIFICATION-->
+
+         <l n="432" xml:id="l.432" part="F">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>they writhe in obscene syncopation
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>:</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="433" xml:id="l.433" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>
+            <foreign xml:lang="fr"><hi rend="face(italics)">Toutes les cartes marchent avec une allumette
+               <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/> !</hi></foreign></l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="434" xml:id="l.434" part="I">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>A hundred lenses refracting the Masque of the Seven</l><!--JUSTIFICATION-->
+
+         <l n="435" xml:id="l.435" part="F">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>Deadly sins for American astigmatism
+            <space type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>: </l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="436" xml:id="l.436" part="I">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>
+            <hi rend="face(italics)">‘‘I dont like the gurls of the night-club——they love</hi></l><!--JUSTIFICATION-->
+
+         <l n="437" xml:id="l.437" part="F">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="2" resp="Grove"/><hi rend="face(italics)">women</hi>.’’</l>
+
+         <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
+         
+         <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="99" resp="Grove"/>(21)</fw>
+
+         <milestone unit="page" n="21"/>
+         <milestone unit="spread" n="11"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="35" resp="Grove"/>
+         <l n="438" xml:id="l.438" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="1" resp="Grove"/>
+            <foreign><hi rend="face(italics)">Toutes les cates marchent avec une allumette</hi></foreign>
+            <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>!</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="439" xml:id="l.439" rend="face(allCaps)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="154" resp="Grove"/>DAWN</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
+         
+         <l n="440" xml:id="l.440" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>Verlaine's bed
+            <seg rend="fontsize(7pt)" part="N">-</seg>time
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="3.5" resp="Grove"/> Alchemy </l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="441" xml:id="l.441" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>Absynthe,</l>
+
+         <l n="442" xml:id="l.442" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>Algerian tobacco,</l>
+
+         <l n="443" xml:id="l.443" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="70" resp="Grove"/>Talk, talk, talk,</l>
+
+         <l n="444" xml:id="l.444" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>Manuring the white violets of the moon.</l>
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="445" xml:id="l.445" part="I">The President of the Republic lies in bed beside his</l><!--JUSTIFICATION-->
+
+         <l n="446" xml:id="l.446" part="F">wife, and it may be at this very moment
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/>.
+            <space type="character" dim="horizontal" unit="pts" quantity="5" resp="Grove"/>.</l>
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="447" xml:id="l.447" part="N">In the <ref xml:id="a.12"><foreign xml:lang="fr">Abbaye
+         </foreign> of Port <seg rend="fontsize(8pt)" part="N">-</seg>Royal</ref> babies are being born,</l><!--LANGUAGE--><!--JUSTIFICATION-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="448" xml:id="l.448" part="I">Perhaps someone who cannot sleep is reading <foreign xml:lang="fr">
+            <hi rend="face(italics)">le</hi></foreign><!--JUSTIFICATION--></l>
+
+         <l n="449" xml:id="l.449" part="F">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="126" resp="Grove"/>
+            <foreign xml:lang="fr"><hi rend="face(italics)">Crime et le Châtiment</hi></foreign></l><!--TYPE: note special character--><!--JUSTIFICATION-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+         <l n="450" xml:id="l.450" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="80" resp="Grove"/>The sun is rising,</l>
+
+         <l n="451" xml:id="l.451" rend="fromLeft(60pts)" part="N">Soon <foreign xml:lang="fr">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>les Halles</foreign> will open,</l>
+
+         <l n="452" xml:id="l.452" part="I"> The sky is saffron behind the two towers of <foreign xml:lang="fr">Nôtre-</foreign></l><!--LANGUAGE--><!--JUSTIFICATION-->
+
+         <l n="453" xml:id="l.453" part="F">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="189" resp="Grove"/>
+            <foreign xml:lang="fr">Dame.</foreign></l><!--JUSTIFICATION-->
+
+         <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+         
+         <l n="454" xml:id="l.454" rend="face(allCaps)" part="N">
+            <foreign xml:lang="fr">JE VOUS SALUE PARIS PLEIN DE GRACE.</foreign></l><!--JUSTIFICATION-->
+         
+         <space type="leading" dim="vertical" unit="pts" quantity="15" resp="Grove"/>
+
+         <l n="455" xml:id="l.455" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="79" resp="Grove"/>*</l>
+         <space type="leading" dim="vertical" unit="pts" quantity="6" resp="Grove"/>
+         <l n="456" xml:id="l.456" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="91" resp="Grove"/>*</l>
+         <space type="leading" dim="vertical" unit="pts" quantity="2" resp="Grove"/>
+         <l n="457" xml:id="l.457" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="126" resp="Grove"/>*</l>
+         <space type="leading" dim="vertical" unit="pts" quantity=".5" resp="Grove"/>
+         <l n="458" xml:id="l.458" part="N"> 
+            <space type="alignL" dim="horizontal" unit="pts" quantity="126" resp="Grove"/>*
+            <space type="internal" dim="horizontal" unit="pts" quantity="40" resp="Grove"/>s *</l>
+         <space type="leading" dim="vertical" unit="pts" quantity="20.5" resp="Grove"/>
+         <l n="459" xml:id="l.459" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="128" resp="Grove"/>*
+            <space type="character" dim="horizontal" unit="pts" quantity="36" resp="Grove"/>s *</l>
+         <space type="leading" dim="vertical" unit="pts" quantity="20" resp="Grove"/>
+
+         <l n="460" xml:id="l.460" rend="fromLeft(145pts) fromRight(38pts)" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="145" resp="Grove"/>3 Rue de Beaune</l><!--JUSTIFICATION-->
+
+         <l n="461" xml:id="l.461" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="176" resp="Grove"/>Paris</l>
+
+         <l n="462" xml:id="l.462" part="N">
+            <space type="alignL" dim="horizontal" unit="pts" quantity="159" resp="Grove"/>Spring
+            <space type="character" dim="horizontal" unit="pts" quantity="10" resp="Grove"/>191<sic>6
+            </sic><corr rend="handwritten" resp="Woolf" instant="false">9</corr></l><!--JUSTIFICATION--><!--XML: Date tag?-->
+
+         <milestone unit="page" n="22"/>
+
+         <space type="margin" dim="vertical" unit="pts" quantity="36" resp="Grove"/>
+
+         <div xml:id="g.105" part="N" org="uniform" sample="complete"><!--JUSTIFICATION-->
+            <head n="463" xml:id="l.463" rend="face(allCaps)">
+               <space type="alignL" dim="horizontal" unit="pts" quantity="91" resp="Grove"/>NOTES</head>
+
+            <note xml:id="n.1" resp="Mirrlees"  anchored="true"> P.I.
+               <space type="character" dim="horizontal" unit="pts" quantity="10.5" resp="Grove"/>
+               <ref target="#a.1"><foreign xml:lang="fr"><hi rend="face(italics)">Nord-Sud</hi></foreign>
+               </ref>, one of the underground railways of<lb n="464" xml:id="l.464"/> Paris. 
+               <ref target="#a.2"><foreign xml:lang="fr"><hi rend="face(italics)">Dubonnet
+               </hi></foreign></ref>, <ref target="#a.3"><hi rend="face(italics)">Zig-zag</hi></ref>,
+               <ref target="#a.4"><foreign xml:lang="fr"><hi rend="face(italics)">Lion Noir</hi></foreign></ref>,
+                  <ref target="#a.5"><foreign xml:lang="fr"><hi rend="face(italics)">Cacao Blooker
+                  </hi></foreign></ref><lb n="465" xml:id="l.465"/><!--XML: how link to multiple places--> are posters. 
+               <ref target="#a.6"><foreign xml:lang="fr"><hi rend="face(italics)">Rue du Bac
+               </hi></foreign></ref> , etc. are names of stations.<lb n="466" xml:id="l.466"/></note>
+            
+            <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+            <!--XML: Ask if this way of taggin a long section is valid-->
+            <note xml:id="n.2" resp="Mirrlees" anchored="true">P.II.
+               <space type="character" dim="horizontal" unit="pts" quantity="10.5" resp="Grove"/><ref target="#a.7">“
+                  <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> It is pleasant to sit on the Grands Boule
+                  <seg rend="fontsize(7pt)" part="N">-</seg><lb n="467" xml:id="l.467"/>vards”</ref> to page 13 
+               <ref target="#a.8">“the curse of vastness”</ref> is a de
+               <seg rend="fontsize(7pt)" part="N">-</seg><lb n="468" xml:id="l.468"/> scription of the 
+               <foreign xml:lang="fr">Grands Boulevards</foreign>.<lb n="469" xml:id="l.469"/><!--LANGUAGE--></note>
+            
+            <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+            <note xml:id="n.3" resp="Mirrlees" anchored="true"><!--GROUPING: Put line groups within a seg tag?--> 
+               P.13.<space type="character" dim="horizontal" unit="pts" quantity="10.5" resp="Grove"/><ref target="#a.9">“
+                  <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> The first of May, there is no lily of the valley.
+                  <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> ”</ref><lb n="470" xml:id="l.470"/> 
+               On May I, the<foreign xml:lang="fr"><hi rend="face(italics)">Mois de Marie</hi></foreign>, lily of the valley is<lb n="471" xml:id="l.471"/> 
+               normally sold in all the streets of Paris; but on May I,<lb n="472" xml:id="l.472"/> 
+               1919, the day of the general strike, no lily of the<lb n="473" xml:id="l.473"/> 
+               valley was offered for sale.<lb n="474" xml:id="l.474"/></note>
+            
+            <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+            <note xml:id="n.4" resp="Mirrlees" anchored="true"> P.14.
+               <space type="character" dim="horizontal" unit="pts" quantity="10.5" resp="Grove"/>The 
+               <ref target="#a.10">April moon</ref>, <foreign xml:lang="fr"><hi rend="face(italics)">la lune rousse</hi></foreign>
+               , is suposed<lb n="475" xml:id="l.475"/> to have a malign influence on vegetation.<lb n="476" xml:id="l.476"/></note>
+            
+            <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+            <note xml:id="n.5" resp="Mirrlees" anchored="true"><!--XML: below - should the whole phrase be included in the seg?-->
+                  P.15.<space type="character" dim="horizontal" unit="pts" quantity="10.5" resp="Grove"/>
+               <ref target="#a.11">“The windows of <foreign xml:lang="fr"><hi rend="face(italics)">les Galéries Laffayette</hi></foreign>, etc.
+                  <space type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/> ”</ref><lb n="477" xml:id="l.477"/><!--TYPE: note special character--><!--LANGUAGE--> 
+               During Lent life<seg rend="fontsize(7pt)" part="N">-</seg>size wax dolls, dressed like candidates<lb n="478" xml:id="l.478"/> 
+               for Première Communion, are exposed in the windows<lb n="479" xml:id="l.479"/><!--TYPE: note special character--> 
+               of the big shops.<lb n="480" xml:id="l.480"/></note>
+            
+            <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
+
+            <note xml:id="n.6" resp="Mirrlees" anchored="true"> P.22.
+               <space type="character" dim="horizontal" unit="pts" quantity="10.5" resp="Grove"/>
+              <ref target="#a.12">The Abbaye de Port<seg rend="fontsize(7pt)" part="N">-</seg>Royal</ref> is now a maternity<lb n="481" xml:id="l.481"/> 
+               hospital.<lb n="482" xml:id="l.482"/></note>
+            
+            <space type="internal" dim="vertical" unit="pts" quantity="85" resp="Grove"/>
+            
+            <fw type="pageNum" rend="type(9 pt Old Style numeral)">
+               <space type="alignL" dim="horizontal" unit="pts" quantity="99" resp="Grove"/>(23)</fw>
+            <!--XML: why does this need to be within the div tag?-->
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

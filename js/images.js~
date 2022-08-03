@@ -1,0 +1,63 @@
+var images = {};
+let requestURL = "imagedata.json";
+let request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+request.onload = function() {
+    let imagelist = request.response;
+    for (i in imagelist) {
+        let img = imagelist[i];
+        images[img['ImageID']] = img;
+    }
+}
+
+
+
+let showimage = function(imageid) {
+    var imagebox = document.getElementById("imagebox");
+    imagebox.outerHTML = "<iframe id='imagebox' title='imagebox' width='400' height='200'></iframe>";
+    var imagebox = document.getElementById("imagebox");
+    imagebox.contentDocument.write("<head><script src='../js/openseadragon-bin-2.4.2/openseadragon.js'></script></head>");
+    let imageurl = images[imageid]['Mounted_Image_Links'];
+    var script = "<body><h1>Images</h1>";
+    script += "<div id='img'></div><script>";
+    script += "let viewer = OpenSeadragon({id: 'img',";
+    script += "tileSources: {";
+    script += "type: 'image',";
+    script += `url: '${imageurl}',`;
+    script += "}});";
+    script += "</script></body>";
+    imagebox.contentDocument.write(script);
+};
+
+let showimage_old = function(imageid) {
+    let image = images[imageid];
+    let imgbox = document.getElementById("imagebox");
+    imgbox.innerHTML = "";
+    let imghtml = `<img src="${image['Mounted_Image_Links']}"/>`;
+    let imgdiv = document.createElement("div");
+    imgbox.appendChild(imgdiv);
+    imgdiv.innerHTML = imghtml;
+};
+
+
+
+let imagelinks = document.getElementsByClassName("imagelink");
+for (i in imagelinks) {
+    let el = imagelinks[i];
+    el.onclick = function(e) {
+        showimage(this.dataset.ref);
+    }
+}
+
+// var viewer = OpenSeadragon({
+    // id: "imagebox",
+    // tileSources: {
+        // type: "image",
+        // url: "/images/Notre_Dame.jpg",
+        // crossOriginPolicy: 'Anonymous',
+        // ajaxWithCredentials: false
+    // }
+// })
+

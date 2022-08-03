@@ -1,0 +1,100 @@
+@import url("pages.css");
+@import url("notes.css");
+@import url("images.css");
+
+
+html {
+    margin: 0;
+    padding: 0;
+    width: unset;
+}
+
+#body_notes {
+    margin: 2.5em;
+    display: flex;
+}
+
+#body_notes.safari * {
+    transition: none !important;
+}
+
+#pageheader {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 0 1em;
+    line-height: 3em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#pageheader .headertitle {
+    font-size: 200%;
+    margin: 0 3em 0 0.5em;
+}
+#pageheader .headertitle a {
+    color: #FFFFFF;
+}
+
+#pageheader input {
+    margin-left: 1em;
+}
+#pageheader label {
+    margin-left: 0.25em;
+}
+
+#tei_wrapper {
+    margin-left: calc(50vw - 216pt);
+    transition: all 1500ms;
+}
+
+a.imagelink {
+    text-decoration: none;
+    color: #292929;
+}
+
+#imagebox {
+    display: none;
+}
+
+footer {
+    clear: left;
+}
+
+.showhowto {
+    margin-left: 3em;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: CC8888 #solid underline;
+}
+
+#howto {
+    display: block;
+    position: absolute;
+    top: 60px;
+    margin: 0 calc(50vw - 300px);
+    width: 500px;
+    visibility: visible;
+    background: #000000C0;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 20px 30px;
+    line-height: 1.3em;
+    font-size: 130%;
+}
+
+#howto p {
+    margin: 1em 0 ;
+}
+
+#howto .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: 1px solid #A0A0A0;
+    text-align: center;
+    width: 10px;
+    height: 11px;
+    line-height: 9px;
+    cursor: pointer;
+}

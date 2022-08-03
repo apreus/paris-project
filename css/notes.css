@@ -1,0 +1,415 @@
+#body_notes.notes #tei_wrapper {
+    margin-left: unset;
+}
+
+
+#body_notes.notes {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#body_notes.notes #briggs_notes {
+    display: block;
+}
+
+#body_notes #briggs_notes note {
+    opacity: 0;
+    font-size: 0;
+}
+
+#body_notes.notes #briggs_notes note {
+    opacity: 1;
+    font-size: 100%;
+}
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ @media {
+    /* Safari-only */
+   #body_notes.notes #tei_wrapper, 
+   #body_notes.notes,
+   #body_notes #briggs_notes 
+   {
+       /* transition: all 0; */
+   }
+
+}}
+
+
+#body_notes.notes #briggs_notes div {
+    width: 300pt;
+}
+
+
+#body_notes.notes footer {
+    width:100%
+}
+
+#body_notes.notes l {
+  text-indent: -65pt !important;
+}
+
+#body_notes.notes #briggs_notes note {
+    /*  padding-bottom: 6pt;*/
+    position: absolute;
+    display:block;
+    height: 1.2em;
+    width: 324px;
+    text-justify: none;
+    overflow: hidden;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size:9pt;
+}
+
+#body_notes.notes #briggs_notes note:before {
+    content: attr(n);
+    display:inline-block;
+    /*  margin:0 6px;*/
+    width:8em;
+    text-align: right;
+    font-size:9pt;
+    margin-left:-5.2em;
+    overflow:visible;
+}
+
+#body_notes.notes #briggs_notes note.selected {
+    display: block;
+    width: 300px;
+    overflow:visible;
+    z-index: 5;
+    height: auto;
+    text-indent: -2em;
+    margin-left: 2em;
+    padding-bottom: .7em;
+    padding-top:.7em;
+    padding-right: 24px;
+    box-shadow: 3px 3px 3px gray;
+    background-color: #FFFFFF;
+    color: #292929;
+}
+
+#body_notes.notes l span.ln  {
+    width: 27pt;
+    display: inline-block;
+    font-size: 7pt !important;
+    line-height: 100%;
+    font-style: normal !important;
+    text-align: right;
+    padding-right: 20pt;
+    letter-spacing: .3px;
+    opacity: .5;
+    visibility: hidden;
+}
+
+#body_notes.notes #briggs_notes note.selected {
+    display: block !important;
+    position: absolute;
+}
+
+note:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #80808080;
+}
+
+note.selected:after {
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #80808080;
+
+}
+
+/*  l[n="2"] span.ln {
+   opacity: 1;
+   text-decoration: underline; 
+}
+
+l[n="3"] span.ln {
+   opacity: 1;
+}
+
+l[n="3"] span.ln:before {
+    content: "•";
+    margin:0 10px;
+}
+
+l[n="4"] span.ln:before {
+    content: "•";
+    margin:0 10px;
+    opacity: .5;
+}
+
+l[n="5"] span.ln {
+   opacity: 1;
+   text-decoration: underline; 
+   color: #870E0E
+}
+
+l[n="6"]:after {
+    content: "•";
+    margin:0 10px;
+    opacity: .5;
+}
+
+
+l[n="7"]:after {
+    content: "•";
+    margin:0 10px;
+    opacity: .5;
+}
+
+
+l[n="8"]:after {
+    content: "•";
+    margin:0 10px;
+    opacity: .5;
+}
+
+
+l[n="9"]:after {
+    content: "•";
+    margin:0 10px;
+    opacity: .5;
+}
+
+
+l[n="10"]:after {
+    content: "•";
+    margin:0 10px;
+    opacity: .5; */
+
+
+l[n="10"] span.ln {
+visibility: visible;
+}
+
+l[n="20"] span.ln {
+    visibility:visible;
+}
+
+l[n="30"] span.ln {
+    visibility: visible;
+}
+
+l[n="40"] span.ln {
+    visibility: visible;
+}
+
+l[n="50"] span.ln {
+    visibility: visible;
+}
+
+l[n="60"] span.ln {
+    visibility: visible;
+}
+
+l[n="70"] span.ln {
+    visibility: visible;
+}
+
+l[n="80"] span.ln {
+    visibility: visible;
+}
+
+l[n="90"] span.ln {
+    visibility: visible;
+}
+
+l[n="100"] span.ln {
+    visibility: visible;
+}
+
+l[n="110"] span.ln {
+    visibility: visible;
+}
+
+l[n="120"] span.ln {
+    visibility: visible;
+}
+
+l[n="130"] span.ln {
+    visibility: visible;
+}
+
+l[n="140"] span.ln {
+    visibility: visible;
+}
+
+l[n="150"] span.ln {
+    visibility: visible;
+}
+
+l[n="160"] span.ln {
+    visibility: visible;
+}
+
+l[n="170"] span.ln {
+    visibility: visible;
+}
+
+l[n="180"] span.ln {
+    visibility: visible;
+}
+
+l[n="190"] span.ln {
+    visibility: visible;
+}
+
+l[n="200"] span.ln {
+    visibility: visible;
+}
+
+l[n="210"] span.ln {
+    visibility: visible;
+}
+
+l[n="220"] span.ln {
+    visibility: visible;
+}
+
+l[n="230"] span.ln {
+    visibility: visible;
+}
+
+l[n="240"] span.ln {
+    visibility: visible;
+}
+
+l[n="250"] span.ln {
+    visibility: visible;
+}
+
+l[n="260"] span.ln {
+    visibility: visible;
+}
+
+l[n="270"] span.ln {
+    visibility: visible;
+}
+
+l[n="280"] span.ln {
+    visibility: visible;
+}
+
+l[n="290"] span.ln {
+    visibility: visible;
+}
+
+l[n="300"] span.ln {
+    visibility: visible;
+}
+
+l[n="310"] span.ln {
+    visibility: visible;
+}
+
+l[n="320"] span.ln {
+    visibility: visible;
+}
+
+l[n="330"] span.ln {
+    visibility: visible;
+}
+
+l[n="340"] span.ln {
+    visibility: visible;
+}
+
+l[n="350"] span.ln {
+    visibility: visible;
+}
+
+l[n="360"] span.ln {
+    visibility: visible;
+}
+
+l[n="370"] span.ln {
+    visibility: visible;
+}
+
+l[n="380"] span.ln {
+    visibility: visible;
+}
+
+l[n="390"] span.ln {
+    visibility: visible;
+}
+
+l[n="400"] span.ln {
+    visibility: visible;
+}
+
+l[n="410"] span.ln {
+    visibility: visible;
+}
+
+l[n="420"] span.ln {
+    visibility: visible;
+}
+
+l[n="430"] span.ln {
+    visibility: visible;
+}
+
+l[n="440"] span.ln {
+    visibility: visible;
+}
+
+l[n="450"] span.ln {
+    visibility: visible;
+}
+
+
+/*  
+l[n="0.8"] span.ln {
+    visibility: hidden;
+}
+
+l[n="455"] span.ln  {
+    visibility: hidden;
+}
+
+l[n="456"] span.ln  {
+    visibility: hidden;
+}
+
+l[n="457"] span.ln  {
+    visibility: hidden;
+}
+
+l[n="458"] span.ln  {
+    visibility: hidden;
+}
+
+l[n="459"] span.ln  {
+    visibility: hidden;
+}
+
+l[n="460"] span.ln  {
+    visibility: hidden;
+}
+
+l[n="461"] span.ln  {
+    visibility: hidden;
+}
+
+l[n="462"] span.ln  {
+    visibility: hidden;
+}
+
+*/
+
+
+

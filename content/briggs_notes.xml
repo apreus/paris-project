@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Paris</title>
+            </titleStmt>
+            <publicationStmt>
+                <p part="N">HOLD FOR INFORMATION ABOUT THIS PUBLICATION</p>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <p part="N">HOLD FOR INFORMATION ABOUT THE SOURCE</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                
+                <rendition xml:id="italic" scheme="css">
+                    font-style:italic;
+                </rendition>
+                
+                <rendition xml:id="small-caps" scheme="css">
+                    font-variant:small-caps;
+                </rendition>
+                
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="en">English</language><!--XML:Do I need this?-->
+                <language ident="fr">French</language>
+                <language ident="latn">Latin</language>
+                <language ident="gr">Greek</language>
+                <language ident="ru">Russian</language>
+                <language ident="it">Italian</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <note xml:id="briggs.1" resp="Briggs" anchored="true" target="#range(l.0.8, l.0.11)">
+                Dedication: "To our lady of Paris in recognition of graces granted." "Our Lady of Paris," both the Virgin Mary
+                and the <seg xml:id="briggs.1.1">cathedral</seg> dedicated to her on the Ile-de-la-Cite, at the center of Paris, with an echo of the prayer
+                "Ave Maria, gratia piena" ("Hail Mary, full of grace"——see line 445). The frame suggests that of a votive plaque
+                such as might be hung in a church. From the outset, Paris is addressed as a woman.
+                </note>
+                <note n="1." xml:id="briggs.2" resp="Briggs" anchored="true" target="#l.1">
+                    "holophrase," a single word standing for a phrase, sentence, or complex of ideas, and according to Jane Harrison (JH)
+                    characteristic of an early stage of language development (473-75). "I want" can also mean "I lack." Holophrase puns on "hollow phrase."
+                </note>
+                <note n="2." xml:id="briggs.3" resp="Briggs" anchored="true" target="#l.2">
+                    <seg xml:id="briggs.3.1">Metro line</seg> from Montparnasse to Montmartre, now line 12 (N[ote]P1).
+                </note>
+                <note n="3-6." xml:id="briggs.4" resp="Briggs" anchored="true" target="#range(l.3, l.6)">
+                    Brand names on metro posters (NP1): "<seg xml:id="briggs.4.1">Zig-Zag</seg>," type of cigarette paper advertised with the head of a "zouave,"
+                    an Algerian soldier (and anticipating the poem's zig-zag direction through the city); "<seg xml:id="briggs.4.2">Lion Noir</seg>" (black lion), a brand of shoe polish;
+                    "<seg xml:id="briggs.4.3">Cacao Blooker</seg>," Dutch make of drinking chocolate. These introduce themes of empire and of <hi rendition="#italic">négritude</hi> (blackness),
+                    further linked with "Black-figured vases" (550-480 B.C.), found in Etruscan burial chambers.
+                </note>
+                <note n="7-9." xml:id="briggs.5" resp="Briggs" anchored="true" target="#range(l.7, l.9)">
+                    "Rue du Bac," "Solférino" and "Chambre des Députés" (no "Assemblée Nationale"), the three most northerly stations on the
+                    Nord-Sud line south of the river (rue du Bac is next to rue de Beaune, where HM lived while writing the poem) "Solférino," 
+                    named for a French victoria over Austria in Italy (1859). From 1832, the Chambre des Députés was the Frenhc lower house of government.
+                    "Dubonnet," brand of fortified wine advertised in metro tunnels, HM's curved brackets suggesting the walls of the metro on which the posters appeared.
+                </note>
+                <note n="10." xml:id="briggs.6" resp="Briggs" anchored="true" target="#l.10">
+                    "Brekekekek coax coax," chorus of Aristophanes' <hi rendition="#italic">The Frogs</hi> (405 B.C.) in the underworld (also suggesting rattling
+                    wooden carriages in the metro). "Frogs," British slang for the French, used in letters between HM and JH.
+                </note>
+                <note n="12-13." xml:id="briggs.7" resp="Briggs" anchored="true" target="#range(l.12, l.13)">
+                    "The Scarlet Woman" appears to St. John on the Greek island of Patmos (<hi rendition="#italic">Revelation</hi> 17.3-6). "Byrrh," another fortified
+                    wine, advertised with a poster of a woman dressed in scarlet, playing a drum and shouting (see Cocteau 49, 38 for "BYRRH" and St. John as witness).
+                    ["St" before "John" inserted by Woolf on 160 copies.]
+                </note>
+                <note n="14." xml:id="briggs.8" resp="Briggs" anchored="true" target="#l.14">
+                    "Are you you getting off here, madame?" standard polite phrase for making one's own way off a crowded metro car or bus.
+                </note>
+                <note n="15-16." xml:id="briggs.9" resp="Briggs" anchored="true" target="#range(l.15, l.16)">
+                    "Those who weigh themselves [up] often, know themselves well. Those who know themselves well, stay healthy," motto on station scales.
+                </note>
+                <note n="17." xml:id="briggs.10" resp="Briggs" anchored="true" target="#l.17">
+                    The speaker alights at the first station north of the river, Place de la Concorde, a huge square on the Right Bank, formerly used for royal events,
+                    the guillotine during the revolution, etc. Concorde means "agreement," introducing the theme of the peace process (MacMillan, passim).
+                </note>
+                <note n="20-22." xml:id="briggs.11" resp="Briggs" anchored="true" target="#range(l.20, l.22)">
+                    The spaced-out layout of these lines imitates that of the Tuileries gardens, with gaps left for the basins on the central axis at either end. 
+                    The poems slows down, changing from south > north (vertical movement on the page) to west > east (horizontal). 
+                </note>
+                <note n="23-26." xml:id="briggs.12" resp="Briggs" anchored="true" target="#range(l.23, l.26)">
+                    Little boys riding on a carousel in the Tuileries (out of use during WWI) become soldiers, their hands sticky from the mud of the trenches
+                    (anticipates lines 89-92, 275-76).
+                </note>
+                <note n="27-29." xml:id="briggs.13" resp="Briggs" anchored="true" target="#range(l.27, l.29)">
+                    The pigeons appear to be joined to the statues in the Tuileries, while the statues look "two-dimensional" (273, 403). One, looking over her
+                    shoulder, suggests Watteau's "Le Départ pour Cythère" (properly, "L'Embarcation pour Cythère," 1717, in the Louvre), in which those leaving for
+                    Cytherea (the island of Venus) look back.
+                </note>
+                <note n="30-34." xml:id="briggs.14" resp="Briggs" anchored="true" target="#range(l.30, l.34)">
+                    Some statues are of nymphs. Louis Pasteur (1822-95) developed a vaccine against rabies (Sacha Guitry's play, <hi rendition="#italic">Pasteur</hi>,
+                    was running in Paris in early 1919. A metro station on the Nord-Sud line had been named after him). "Gauls," the French, as warriors or soldiers.
+                    The Nymphs' soft mouths also suggest female genitals ("nymphae," labia minora); their "bite" may refer to venereal disease.
+                </note>
+                <note n="34-39." xml:id="briggs.15" resp="Briggs" anchored="true" target="#range(l.34, l.39)">
+                    Leon Gambetta, national hero and Minister for War during the German siege of Paris, announced the Third Republic in September 1870 (in the
+                    presence of the 1919 Prime Minister Georges Clemençeau——the first buried reference to him). Gambetta's statue in a frock coat (now in the square
+                    Edouar-Vaillant, 20éme) then stood at the base of a seventy-five-foot monumental pyramid in front of the Louvre, with the winged "Genius of France"
+                    leaning over him. HM imagines a red stud (his <hi rendition="#italic">legion d'honneur</hi> rosette) in a button-hole (<hi rendition="#italic">boutonnière</hi>
+                    is slang for anus), suggesting a possible sexual intimacy between these two figures.
+                </note>
+                <note n="36." xml:id="briggs.16" resp="Briggs" anchored="true" target="#l.36">
+                    <hi rendition="#italic">tutoiement</hi>, an intimate form of address (tu), employed by couples.
+                </note>
+                <note n="37." xml:id="briggs.17" resp="Briggs" anchored="true" target="#l.37">
+                    "But it makes sense."
+                </note>
+                <note n="38." xml:id="briggs.18" resp="Briggs" anchored="true" target="#l.38">
+                    Esprit Français, "Spirit of France." The winged "Genius" on the Gambetta monument.
+                </note>
+                <note n="40-42." xml:id="briggs.19" resp="Briggs" anchored="true" target="#range(l.40, l.42)">
+                    "Secrets," defined by four terms set in a square that play between English and French senses: "exquisite" (Fr. <hi rendition="#italic">exquis</hi>);
+                    "significant" (Fr. <hi rendition="#italic">significatif</hi>); "fade," a verb in English, an adjective in French meaning tasteless or insipid; "plastic"
+                    (<hi rendition="#italic">plastique</hi>), malleable, molded, flowing, often applied to sculpture or the visual arts, a favorite word for HM (see lines
+                    112, 289; <hi rendition="#italic">Madeleine</hi>, vii).
+                </note>
+                <note n="43-50." xml:id="briggs.20" resp="Briggs" anchored="true" target="#range(l.43, l.50)"><!--check-->
+                    (Exquisite / significant secrets) Of . . . Goya's painting of the Duchess of Alba (1795, near the end of the war between France, Germany, and Spain)
+                    depicts her as tall and slender, a pyramid, resembling both the Eiffel Tower and Gambetta's monument. Red ribbons in her hair and on her dress echo his red
+                    stud. She seems drugged, and, like him, is pointing, in her case to a small (Maltese) dog at her feet, as if directing the Magi to the infant Jesus at
+                    Epiphany. HM and JH may have seem this painting in Madrid in 1916; Goya was fashionable with the French avant-garde.
+                </note>
+                <note n="51." xml:id="briggs.21" resp="Briggs" anchored="true" target="#l.51">
+                    (Significant / plastic secrets) Of . . . On the top of the Gambetta monument was a figure of Democracy riding on a lion. <hi rendition="#italic">Lysistrata</hi>,
+                    heroine of a play by Aristophanes (411 B.C.), persuaded the women of Athens to end the war with Sparta by going on sexual strike. The play was on at the Marigny
+                    Theatre, and another play inspired by it, <hi rendition="#italic">La grève des femmes</hi>, was also running in Paris in spring 1919.
+                </note>
+                <note n="54." xml:id="briggs.22" resp="Briggs" anchored="true" target="#l.54">
+                    ("Fade" or fading secrets) Of... 
+                </note>
+                <note n="55-56." xml:id="briggs.23" resp="Briggs" anchored="true" target="#range(l.55, l.56)">
+                    From the Place du Carrousel, the Arc de Triomphe is visible at the far end of the Champs Elysées. Caesar (whose statue stands in the Tuileries) scorns
+                    dreams in Shakespeare's play.
+                </note>
+                <note n="58." xml:id="briggs.24" resp="Briggs" anchored="true" target="#l.58">
+                    Salle Caillebotte, room in the Musée du Luxembourg, hung with French impressionist paintings. The painter Gustave Caillebotte's unique collection of these
+                    was at first refused by the French Government, but from 1896 most of them were on display.
+                </note>
+                <note n="59." xml:id="briggs.25" resp="Briggs" anchored="true" target="#l.59">
+                    The journey through Paris continues.
+                </note>
+                <note n="60-61." xml:id="briggs.26" resp="Briggs" anchored="true" target="#range(l.60, l.61)">
+                    "The Etoile," the <hi rendition="#italic">place</hi> at the top of the Champs Elysées, at the center of the fashionable west side, named "etoile"
+                    (star) because twelve avenues radiated from it. "The Bois," (Bois de Boulogne), public park at its western edge.
+                </note>
+                <note n="62." xml:id="briggs.27" resp="Briggs" anchored="true" target="#l.62">
+                    In J-K. Huysman's decadent novel <hi rendition="#italic">A Rebours</hi> (1884), Des Esseintes has the shell of a living tortoise encrusted with jewels.
+                </note>
+                <note n="63." xml:id="briggs.28" resp="Briggs" anchored="true" target="#l.63">
+                    "Spinario," Roman statue in bronze (first century B.C.) in the Museo dei Conservatori in Rome. Renaissance copies abound, some in the Louvre.
+                </note>
+                <note n= "64-65." xml:id="briggs.29" resp="Briggs" anchored="true" target="#range(l.64, l.65)">
+                    Juliette Récamier, famous beauty and lover of the poet Chateaubriand (362). "Discalceated," rare word for "barefooted," as she appears in a portrait
+                    (1800) by Jacques-Louis David (291), in the Louvre. "<hi rendition="#italic">De nos jours</hi>," of our time.
+                </note>
+                <note n="67-68." xml:id="briggs.30" resp="Briggs" anchored="true" target="#range(l.67, l.68)">
+                    "Saunters" suggests the  <hi rendition="#italic">flâneur</hi>, stroller or wanderer, a characteristic Parisian type; "rue Saint-Honoré," old street
+                    meandering from east to west parallel with the river (Chateaubriand lived at no. 374). "Grand Seigneur," great lord. Brittany, the westernmost region of France,
+                    introduces a tour of the provinces.
+                </note>
+                <note n="70." xml:id="briggs.31" resp="Briggs" anchored="true" target="#l.70">
+                    Auvergnat, hot chestnut-seller, native to the Auvergne, the mountainous area of central France. Celtic Brittany and the Gallic Auvergne represent old
+                    traditional French stock. Many nineteenth-century Parisians came from Brittany and central France (Higonnet 77).
+                </note>
+                <note n="72-77." xml:id="briggs.32" resp="Briggs" anchored="true" target="#range(l.72, l.77)">
+                    Paris was often pictured as a city of peasants, and its <hi rendition="#italic">quartiers</hi> thought of as villages, especially by the surrealists
+                    (see Louis Aragon, <hi rendition="#italic">Le Paysan de Paris</hi> (1926). Many Paris houses have large gates, providing glimpses of "Hidden courts" 
+                    decorated with classical figures such as "putti," though the "Little gods" could be the city's artists, musicians and writers.
+                </note>
+                <note n="78." xml:id="briggs.33" resp="Briggs" anchored="true" target="#l.78">
+                    The Gallic cock is a national symbol. The cock wakens the farmer, usually banishing ghosts, though here it becomes the ghost of Hesiod, an early Greek
+                    poet who "sang" (as the cock does) of country life in his <hi rendition="#italic">Works and Days</hi> (both denied to the dead). "Acheron," one of four
+                    rivers of the classical underworld/afterlife.
+                </note>
+                <note n="84." xml:id="briggs.34" resp="Briggs" anchored="true" target="#l.84">
+                    That is, peace; also the "Eniautos Daimon," whose birth and death correspond to seasonal change, the central theme of JH's <hi rendition="#italic">Themis</hi>.
+                </note>
+                <note n="86-88." xml:id="briggs.35" resp="Briggs" anchored="true" target="#range(l.86, l.88)">
+                    The Spirit of the Year is laid out, corpse-like, in fields whose ploughed furrows ("nos sillons") suggest the fluted drapery of archaic Greek statues,
+                    as well as the trenches of WWI.
+                </note>
+                <note n="90-93." xml:id="briggs.36" resp="Briggs" anchored="true" target="#range(l.90, l.93)">
+                    Children hung with amulets (good luck charms, to protect from danger) are also reincarnated soldiers (as at line 23; see Cocteau 41).
+                    "<hi rendition="#italic">Pigeon vole</hi>" (literally, "pigeon, fly"), children's game that also recalls extensive use of pigeons to carry military
+                    information in WWI. Red and blue are the colors of Paris, and the blue smocks recall the blue uniforms of French soldiers (as at line 275).
+                </note>
+                <note n="95-99." xml:id="briggs.37" resp="Briggs" anchored="true" target="#range(l.95, l.99)">
+                    "At Bon Marche, Spring Outfits Available Now." Bon Marche, large department store in the rue de Babylone, subject of Zola's 1883 novel,
+                    <hi rendition="#italic">Au Bonheur des Dames (Ladies' Paradise)</hi> (Higonnet 200). 
+                </note>
+                <note n="100." xml:id="briggs.38" resp="Briggs" anchored="true" target="#l.100">
+                    "jeunesse dorée," gilded youth, used of wealthy, spoilt young people, but also of the buds on the sycamore trees. 
+                </note>
+                <note n="101-2." xml:id="briggs.39" resp="Briggs" anchored="true" target="#range(l.101, l.102)">
+                    Mauve or purple is the ritual color used in Lent. 
+                </note>
+                <note n="104-5." xml:id="briggs.40" resp="Briggs" anchored="true" target="#range(l.104, l.105)">
+                    "Crocuses, / Chionodoxa," flowers of early spring. Crocuses are usually mauve. Blue or white, Chionodoxa, meaning "glory of the snow," a 
+                    suitable name for a fairy-tale princess. Serbia also recalls the assassination of the Archduke at Sarajevo that triggered WWI.
+                </note>
+                <note n="107-8." xml:id="briggs.41" resp="Briggs" anchored="true" target="#range(l.107, l.108)">
+                    "chef d'oeuvre," masterpiece. The floral pageant runs from crocuses, to lily of the valley sold on May 1 (see lines 235-59; NP13) to the
+                    dog-roses of early summer. The dog-roses reverse the gaze of the painters (lines 21-22) by watching the annual pilgrimage of gypsies to
+                    Saintes-Marie-de-la-Mer in the Camargue on May 23-25; "wanes," an unusual spelling of "wains," or wagons. "Charles's wain," another name for
+                    the Great Bear (see lines 445-46).
+                </note>
+                <note n="111-14." xml:id="briggs.42" resp="Briggs" anchored="true" target="#range(l.111, l.114)">
+                    "Roses from Lyons," major city; south-east of Paris. Unlike dog-roses, they are "scentless" (<hi rendition="#italic">fade?</hi>), yet "plastic,"
+                    or moulded. In 1913 Joseph Pernet-Ducher named a hybrid tea-rose "Mme Edouard Herriot" after the wife of the then mayor of Lyons.
+                </note>
+                <note n="115-16." xml:id="briggs.43" resp="Briggs" anchored="true" target="#range(l.115, l.116)">
+                    French painter J.A.D. Ingres (1780-1867) apparently did not paint Mme Nélie Jacquemart-Andre (1841-1912), herself a portrait painter and
+                    art collector. Her home became the Musée Jacquemart-André at 158, Blvd. Haussmann.
+                </note>
+                <note n="117-21." xml:id="briggs.44" resp="Briggs" anchored="true" target="#range(l.117, l.121)">
+                    In February 1919, paintings stored underground for safety were re-hung in the Louvre, including the fifteenth-century "Pietà" from 
+                    Villeneuve-les-Avignon; Edouard Manet's controlversial nude, "Olympia" (1863), first displayed in 1907 after a campaign by Georges Clemençeau (on Manet,
+                    see line 290); "Gil[l]es," Watteau's painting of Pierrot (1718-19); "Mantegna's Seven Deadly Sins," properly "Minerva chasing the Vices from the Garden
+                    of Virtue" (ca. 1502); J.-B.-S Chardin (1699-1779) specialized in domestic scenes and still life. 
+                </note>
+                <note n="123-25." xml:id="briggs.45" resp="Briggs" anchored="true" target="#range(l.123, l.125)">
+                    "Unetiolated," not pale from being stored in a dark, underground place. Shakespeare's Macbeth claims of his murdered victim, "Duncan is in his
+                    grave. / After life's fitful fever, he sleeps well" (III.ii. 22-23). the paintings implicitly contrast with dead soldiers, who cannot be resurrected,
+                    and may not "sleep well."
+                </note>
+                <note n="126-28." xml:id="briggs.46" resp="Briggs" anchored="true" target="#range(l.126, l.128)">
+                    Greeted rapturously as "Wilson le Juste" on arrival in Paris for the peace talks, U.S. President Woodrow Wilson brought his fourteen-point plan,
+                    which promised more than it could deliver (MacMillan 3-20). "Gargantua," figuring old Europe, was an anarchic giant, and title character of Rabelais'
+                    fantasy (1534-35); his urine was indeed "diluvial," or flood-like (the French describe heavy rain as "pluie diluvienne"). Wilson's "innocent enjoyment"
+                    appeared to Clemençeau "pathetic naiveté" (MacMillan 23). 
+                </note>
+                <note n="129." xml:id="briggs.47" resp="Briggs" anchored="true" target="#l.129">
+                    "chrysalids," cocoons or pupae that will relase butterflies (as the buds release leaves).
+                </note>
+                <note n="132." xml:id="briggs.48" resp="Briggs" anchored="true" target="#l.132">
+                    Easter (Good Friday, April 18, in 1919). "Grand Guignol" ("blood and guts") was a violent, sensational type of melodrama performed at the Grand
+                    Guignol theatre in Montmartre (see lines 181-82). [HM cut lines 1-5 of this page when the poem was reprinted in 1973.]
+                </note>
+                <note n="134." xml:id="briggs.49" resp="Briggs" anchored="true" target="#l.134">
+                    Ritual self-flagellation was a regular feature of Good Friday processions.
+                </note>
+                <note n="136." xml:id="briggs.50" resp="Briggs" anchored="true" target="#l.136">
+                    Little Jesus does a pee-pee. "Le petit jésus," pretty child, can also be slang for a boy prostitute.
+                </note>
+                <note n="137." xml:id="briggs.51" resp="Briggs" anchored="true" target="#l.137">
+                    Lilac flowers near the end of Lent, its color echoing that of the church draperies (101, 155). 
+                </note>
+                <note n="138-40." xml:id="briggs.52" resp="Briggs" anchored="true" target="#range(l.138, l.140)"><!--check-->
+                    <hi rendition="#italic">Song of Solomon</hi> 8.8: "We have a little sister, and she has no breasts" (see also <hi rendition="#italic">Song of Solomon</hi>
+                    2:11-12 for its evocation of spring).
+                </note>
+                <note n="140-42." xml:id="briggs.53" resp="Briggs" anchored="true" target="#range(l.140, l.142)">
+                    "Quality milk from the Rambouillet farm," the first of a series of street signs. Rambouillet, a small town south-west of Paris, 
+                    where Louis XVI created the Ferme de Rambouillet, the Queen's dairy, for Marie Antoinette. The Hótel Ramboullet (in Paris) was the first 
+                    and greatest French <hi rendition="#italic">salon</hi> (see <hi rendition="#italic">Madeleine</hi>, ch. IX).
+                </note>
+                <note n="143-44." xml:id="briggs.54" resp="Briggs" anchored="true" target="#range(l.143, l.144)">
+                    "The telephone directory can be consulted here."
+                </note>
+                <note n="145-46." xml:id="briggs.55" resp="Briggs" anchored="true" target="#range(l.145, l.146)">
+                    "Delicatessen, for best quality cold cuts."
+                </note>
+                <note n="147-48." xml:id="briggs.56" resp="Briggs" anchored="true" target="#range(l.147, l.148)">
+                    "Pre-meal drinks" / "Food for diabetics" (literally, "diabetic food").
+                </note>
+                <note n="149." xml:id="briggs.57" resp="Briggs" anchored="true" target="#l.149">
+                    "Your clothes dyed black in 24 hours" (literally, "mourning in 24 hours"). This and the previous sign are examples of "catachresis," the application
+                    of a term to something it does not properly denote. According to MacMillan (26-27), in the Paris of 1919 "almost every other woman wore mourning."
+                </note>
+                <note n="150." xml:id="briggs.58" resp="Briggs" anchored="true" target="#l.150">
+                    "Gentlemen-and-ladies," written thus to reflect its pronunciation on the street by waiters, etc. (see lines 157, 191-192). 
+                </note>
+                <note n="151-55." xml:id="briggs.59" resp="Briggs" anchored="true" target="#range(l.151, l.155)">
+                    A Roman temple to Mercury, the winged messenger of the gods, once stood on Montmartre, where the cathedral of the Sacré Coeur had recently
+                    been completed (dedicated October 1919). <hi rendition="#italic">Templum</hi> is Latin for a sacred space, but "Little temples" might refer to the
+                    circular kiosks on the boulevards or even open-air urinals ("<hi rendition="#italic">pissoirs</hi>").
+                </note>
+                <note n="154-55." xml:id="briggs.60" resp="Briggs" anchored="true" target="#range(l.154, l.155)">
+                    Harpagon is <hi rendition="#italic">The Miser</hi> of Molière's play (1668), who regards his money as his blood (see V.iii). East of the 
+                    Sacré Coeur (sacred heart) is the rue de la Goutte d'Or (golden drop), its name derived from the wealth of vineyards formerly on that site, so the
+                    "golden drop of Harpagon's blood" (money) may be contrasted with the blood of the Sacred Heart. But if the "golden drop" is urine (as at lines
+                    127-28), this might refer to the homosexual activities for which the <hi rendition="#italic">pissoirs</hi> had been notorious since the eighteenth
+                    century. 
+                </note>
+                <note n="156-57." xml:id="briggs.61" resp="Briggs" anchored="true" target="#range(l.156, l.157)">
+                    In a typical bar-tabac: vermouth is a type of aperitif; bocks are glasses of beer.
+                </note>
+                <note n="159-61." xml:id="briggs.62" resp="Briggs" anchored="true" target="#range(l.159, l.161)">
+                    "Don't close the door, please, the Primus [a compressed air device] will take are of it."
+                </note>
+                <note n="162." xml:id="briggs.63" resp="Briggs" anchored="true" target="#l.162">
+                    ouvriers: workmen, who discuss recent news items.
+                </note>
+                <note n="163." xml:id="briggs.64" resp="Briggs" anchored="true" target="#l.163">
+                    "the eight-hour day," demanded by the workers and voted on by the government on April 17 and 23, but the difficulties of implementing it resulted
+                    in a general strike on May 1 (lines 235-59, 263; NP13; Hausser 723, 724).
+                </note>
+                <note n="165." xml:id="briggs.65" resp="Briggs" anchored="true" target="#l.165">
+                    Henri Landru, a serial killer. The police investigated his activities from April to May 1919.
+                </note>
+                <note n="166." xml:id="briggs.66" resp="Briggs" anchored="true" target="#l.166">
+                    According to a programme for May 2, 1919, the learned seal was "Bichette" and her trainer was Capitaine Juge; the Nouveau Cirque was at 251, rue
+                    Saint-Honoré.
+                </note>
+                <note n="167." xml:id="briggs.67" resp="Briggs" anchored="true" target="#l.167">
+                    On February 19, the anarchist Emile Cottin attempted to assassinate Clemençeau, chairman of the Peace Conference (see notes on lines 35-39, 116-21;
+                    Hausser 715; MacMillan 150-151). Cottin was condemned to death in March, but reprieved. His names suggests that of Abbé Charles Cotin (1604-82), habitué
+                    of the Hôtel Rambouillet (see <hi rendition="#italic">Madeleine</hi>, 55). 
+                </note>
+                <note n="169-72." xml:id="briggs.68" resp="Briggs" anchored="true" target="#range(l.169, l.172)">
+                    Four adjectives probably refer to the previous discussion: "<hi rendition="#italic">méticuleux</hi>," punctilious, scrupulous (Cottin?); 
+                    "<hi rendition="#italic">bélligerents</hi>," aggressive, warlike (the Germans, according to the newspapers?); "<hi rendition="#italic">hebdomadaire</hi>,"
+                    weekly (of the eight-hour day); "<hi rendition="#italic">immonde</hi>," monstrous, foul (Landru?).
+                </note>
+                <note n="173-76." xml:id="briggs.69" resp="Briggs" anchored="true" target="#range(l.173, l.176)">
+                    The Roman Legions in their winged helmets could be seen as invaders of Gaul (France) (like the defeated Germans) or else as France's departing allies.
+                </note>
+                <note n="177-80." xml:id="briggs.70" resp="Briggs" anchored="true" target="#range(l.177, l.180)">
+                    Père Lachaise, third of the trio of seventeenth-century clerics, was the Jesuit confessor of Louis XIV and gave his name to Paris's most famous
+                    cemetery. He appears wearing a curtain (introducing the theater of war), embroidered with the letter H (pronounced "ash" in French, and so suggesting the
+                    words of the English funeral service, "Dust to dust, and ashes to ashes"——in French, <hi rendition="#italic">hache</hi> also means axe. 
+                </note>
+                <note n="183." xml:id="briggs.71" resp="Briggs" anchored="true" target="#l.183">
+                    Henri Rousseau (1844-1910), known as the Douanier (customs officer) was a French "Sunday" painter whose paintings ("beautiful and horrible") were
+                    admired by the avant-garde, especially after Picasso gave a famous dinner for him (1908). HM may have known his painting "La Guerre" (1894).
+                </note>
+                <note n="184-85." xml:id="briggs.72" resp="Briggs" anchored="true" target="#range(l.184, l.185)">
+                    The artistic representation of violent events now dominates the poem. WWI failed conspicuously to conform to any rules, let alone the unities
+                    of time, place, and action required of classical tragedy; it was closer to Grand Guignol (line 131), which left "The stage . . . thick with corpses."
+                </note>
+                <note n="186." xml:id="briggs.73" resp="Briggs" anchored="true" target="#l.186">
+                    <hi rendition="#italic">"gaillards,"</hi> big, strapping fellows.
+                </note>
+                <note n="187." xml:id="briggs.74" resp="Briggs" anchored="true" target="#l.187">
+                    <hi rendition="#italic">"eidola,"</hi> (Greek) ghosts, spirits, images.
+                </note>
+                <note n="189." xml:id="briggs.75" resp="Briggs" anchored="true" target="#l.189">
+                    Killed in action (literally, "dead on the field of honour").
+                </note>
+                <note n="191-92." xml:id="briggs.76" resp="Briggs" anchored="true" target="#range(l.191, l.192)">
+                    "The poor man!"
+                </note>
+                <note n="193." xml:id="briggs.77" resp="Briggs" anchored="true" target="#l.193">
+                    "petites bourgeoises," middle-class women, collecting money for war victims (149, 157). Picardie is a province in northern France, site of much
+                    of the fighting in WWI.
+                </note>
+                <note n="197." xml:id="briggs.78" resp="Briggs" anchored="true" target="#l.197">
+                    ghoul-like, ghouls rob graves and eat corpses.
+                </note>
+                <note n="199-200." xml:id="briggs.79" resp="Briggs" anchored="true" target="#range(l.199, l.200)">
+                    The battle of the Marne (1914) was the worst battle of WWI for the French in terms of losses, their army being almost cut off by German forces
+                    in eastern France. The river Marne flows westwards to join the Seine near Paris, where its banks were lined with "guingettes," dance halls, popular at
+                    weekends.
+                </note>
+                <note n="201." xml:id="briggs.80" resp="Briggs" anchored="true" target="#l.201">
+                    "The Grand[s] Boulevards," a series of wide streets, running north of the rue Saint-Honoré, on an east-west axis, lined with theaters and cinemas——
+                    a favourite Sunday afternoon walk (the poem seems to zig-zag east from Concorde to the Louvre, west along the rue Saint-Honoré towards the Madeleine, 
+                    then east along the Grands Boulevards). From here to line 234 is a description of the Grands Boulevards (NP11).
+                </note>
+                <note n="203-206." xml:id="briggs.81" resp="Briggs" anchored="true" target="#range(l.203, l.206)">
+                    "Cloacæ" (Latin), sewers below the boulevards; "Hot indiarubber," from car tires——by 1914, there were 25,000 cars in Paris (Higonnet 187);
+                    "Poudre de riz," face powder; "Algerian tobacco" (see line 434) was cheap——themes of empire and racial alterity re-appear, picking up on "Zig-Zag" (line
+                    3), cigarette papers rolled around Algerian tobacco and joints.
+                </note>
+                <note n="207-8." xml:id="briggs.82" resp="Briggs" anchored="true" target="#range(l.207, l.208)">
+                    "Monsieur Jordain," <hi rendition="#italic">Le Bourgeois Gentilhomme</hi> of Molière's play (1670), dresses up and joins in a Turkish dance in order
+                    to become a "Mamamouchi." He is here pictured in the blue and red uniform of the French Algerian army, the Zouaves. "[P]remier danseur," chief soloist;
+                    "Ballet Turque [turc]," Turkish ballet.
+                </note>
+                <note n="209." xml:id="briggs.83" resp="Briggs" anchored="true" target="#l.209">
+                    "Dat's good!" the slogan advertising the breakfast food, "Banania," on a famous poster showing a Senegalese rifleman sitting under a palm tree.
+                </note>
+                <note n="211." xml:id="briggs.84" resp="Briggs" anchored="true" target="#l.211">
+                    "YANKEES," Americans, either in Paris for the Peace Conference, or staying on after WWI. African Americans often settled in Montmartre, where they
+                    found a tolerant atmosphere (Higonnet 340-42). "[A]nd say beesides . . . ": Shakespeare's Moor of Venice, Othello, just before his suicide, remembers how
+                    he summarily executed a Turk who had "Beat a Venetian, and traduced the state" (V. ii. 354——thus picking up the Turkish theme).
+                </note>
+                <note n="212-213." xml:id="briggs.85" resp="Briggs" anchored="true" target="#range(l.212, l.213)">
+                    <hi rendition="#italic">"Mardi gras,"</hi> Shrove Tuesday, the last day before Lent, the period of forty days fasting before Easter;
+                    <hi rendition="#italic">Carême Prenant</hi>," Shrovetide, the days before the start of Lent, a period of merry-making or "Carnival" before the fast;
+                    here linked with the Peace Conference, as a celebration before repentance and deprivation.
+                </note>
+                <note n="214-16." xml:id="briggs.86" resp="Briggs" anchored="true" target="#range(l.214, l.216)">
+                    Crépes (Shrovetide pancakes) become "crape" thin black mourning veils; "<hi rendition="#italic">Cho-co-lat</hi>," Cho-co-late——the second "o" is long,
+                    and emphasised in French pronunciation.
+                </note>
+                <note n="217." xml:id="briggs.87" resp="Briggs" anchored="true" target="#l.217">
+                    "The women rock themselves backwards and forwards on their haunches."
+                </note>
+                <note n="219." xml:id="briggs.88" resp="Briggs" anchored="true" target="#l.219">
+                    Square-cut beards, as portrayed on Assyrian statues.
+                </note>
+                <note n="221." xml:id="briggs.89" resp="Briggs" anchored="true" target="#l.221">
+                    Tart: sharp, acid; "The tart little race" might be the Armenians, victims of Turkish massacres, who sent a special delegation to the Peace Conference
+                    (MacMillan 377).
+                </note>
+                <note n="223-24." xml:id="briggs.90" resp="Briggs" anchored="true" target="#range(l.223, l.224)">
+                    "Yesyesyes, isn't it exciting——and such good value for money. Cheese isn't a rational dish" (see line 37).
+                </note>
+                <note n="225-227." xml:id="briggs.91" resp="Briggs" anchored="true" target="#range(l.225, l.227)">
+                    "A-a-ah yes, he's a charming boy. / I think every honest woman must recognize herself in Anna Karenina." Tolstoy's novel <hi rendition="#italic">Anna 
+                    Karenina</hi> (1877) is the story of a woman who abandons marriage and child for her lover (see line 282). 
+                </note>
+                <note n="228." xml:id="briggs.92" resp="Briggs" anchored="true" target="#l.228">
+                    "catalepsy," a seizure or tance in which consciousness is suspended (for other tranced moments, see lines 20, 320). French café gossip is contrasted with
+                    the silence of Germans. 
+                </note>
+                <note n="229-34." xml:id="briggs.93" resp="Briggs" anchored="true" target="#range(l.229, l.234)">
+                    Subaqueous: (constructed) under water; this passage echoes the preface to <hi rendition="#italic">Madeleine</hi>, where "Life" (or as here, "Experience")
+                    is the material out of which Art is gradually formed.
+                </note>
+                <note n="236-37." xml:id="briggs.94" resp="Briggs" anchored="true" target="#range(l.236, l.237)">
+                    With these lines, the description of the Grands Boulevards comes to an end (NP11), suggesting, perhaps, that the life on the boulevards provides raw
+                    material needing to be formed into speech or words, if it is to become art ("coming to" could mean coming back to consciousness). Lines 232-34 themselves burst
+                    into "vastness" after the six narrow lines that precede them (see also Tennyson's poem, "Vastness").
+                </note>
+                <note n="238-363." xml:id="briggs.95" resp="Briggs" anchored="true" target="#range(l.238, l.262)">
+                    May I is celebrated as Labor Day in France, but in 1919 there was a general strike in Paris, with violent clashes between the authorities and the workers,
+                    some of whom marched with knives between their teeth (Hausser 726; MacMillan 273). The vertical lettering emphasizes the disruption of normal order, representing
+                    the lines of marchers, and possibly the stems of the (absent) lily of the valley, usually sold on  May I, to give to friends or sweethearts as a bringer of luck
+                    (106, NP13).
+                </note>
+                <note n="263-65." xml:id="briggs.96" resp="Briggs" anchored="true" target="#range(l.263, l.265)">
+                    The struggle between the chaos of life and the structure of art (226-32) now becomes a "ritual fight" between two virgins, as the year progresses from
+                    "The wicked April moon" (<hi rendition="#italic">la lune rousse</hi>) to the month of May, sacred to the Virgin Mary. The April moon is the lunar month after
+                    Easter, characterized by cold, harsh winds that seem to scorch (<hi rendition="#italic">roussir</hi>) the new growth (NP14). "[H]er sweet body" could be that
+                    of Paris.
+                </note>
+                <note n="266." xml:id="briggs.97" resp="Briggs" anchored="true" target="#l.266">
+                    Punning on the English expression, "the silence of the grave," <hi rendition="#italic">la grève</hi> is the strike (on May 1), with a further underlying
+                    wordplay; since <hi rendition="#italic">la grève</hi> means the river bank——the place de <hi rendition="#italic">Grève</hi> (now, place de l'Hôtel de Ville)
+                    being where Parisian workers assembled to "<hi rendition="#italic">faire la grève</hi>," or go on strike.
+                </note>
+                <note n="271." xml:id="briggs.98" resp="Briggs" anchored="true" target="#l.271">
+                    "the mysterious island gardens" seem to be those of the Carrousel, running from the Arc de Triomphe du Carrousel down to the Tuileries.
+                </note>
+                <note n="272-274." xml:id="briggs.99" resp="Briggs" anchored="true" target="#range(l.272, l.274)">
+                    The Seine winds eastward through the center of Paris, reaching the sea at Le Havre. "Ruminating," literally, chewing the cud, and thus recycling
+                    or recirculating, also suggests the river's passage through the fertile dairy-farming province of Normandy. Initially associated with the underworld (line 10),
+                    the Seine is here (and later, line 414) associated with the Freudian unconscious, which increasingly asserts itself as dreams (271, and see lines 310, 376), 
+                    anticipated by the melting of the Louvre (265; compare 311-15).
+                </note>
+                <note n="275." xml:id="briggs.100" resp="Briggs" anchored="true" target="#l.275">
+                    "King-fishers," small, bright blue diving birds.
+                </note>
+                <note n="277-78." xml:id="briggs.101" resp="Briggs" anchored="true" target="#range(l.277, l.278)">
+                    Paris now becomes a sequence of pictures: the "two-dimensional" (as at line 403) silhouette of the Eiffel Tower (a favorite subject for artists)
+                    is "etched" (engraved, black on white), while the soldiers encamped in the Tuileries are drawn in colored chalk, and the page ends with (imaginary)
+                    oil paintings.
+                </note>
+                <note n="279-83." xml:id="briggs.102" resp="Briggs" anchored="true" target="#range(l.279, l.283)">
+                    "The <hi rendition="#italic">Poilus</hi>" (literally "hairy"), French WWI soldiers in blue uniforms, with "<hi rendition="#italic">Tierre 
+                    de Sienne</hi>" (burnt Sienna, reddish brown) packs, around the "gray sphinx" look like the chalk sketches, "edited" (i.e. published) in the rue
+                    des Pyramides, a street where souvenirs are sold. The combination of sphinx and pyramids recalls Napoleon's campaign in Egypt, as well as WWI operations
+                    in Egypt (MacMillan 382-83, 401). 
+                </note>
+                <note n="284-89." xml:id="briggs.103" resp="Briggs" anchored="true" target="#range(l.284, l.289)">
+                    "Désœvrement" (idleness, lack of occupation, suffered by demobilized soldiers) suggests Vronsky; "Apprehension" suggests Anna, the lovers at
+                    the center of Tolstoy's <hi rendition="#italic">Anna Karenina</hi> (line 224). In part 4, they wake from similar dreams of a sinister Russian peasant
+                    (a "mujik"), perhaps unconsciously anticipating the Bolshevik Revoltuion (1917). 
+                </note>
+                <note n="290-93." xml:id="briggs.104" resp="Briggs" anchored="true" target="#range(l.290, l.293)">
+                    Even the most violent and calamitous moments of history can be transformed into the tranquility of art. Clio, the Greek muse of history, becomes
+                    a French painter, stilling the watery flux of life. Shadrach et al. were cast by Nebuchadnezzar into the fiery furnace (<hi rendition="#italic">Daniel</hi>
+                    3.12-30), but in art they become "motionless and plastic."
+                </note>
+                <note n="295-98." xml:id="briggs.105" resp="Briggs" anchored="true" target="#range(l.295, l.298)">
+                    Manet's <hi rendition="#italic">Massacres</hi> . . ." a series of paintings imagined as hanging in the Louvre, depicting violent moments of French
+                    history: Manet (1832-83) is imagined portraying the massacres of "les journées de Juin" (days of June, 1848 when protesters were rounded up, disarmed, and
+                    killed by the army); David (1748-1825), as painting the taking of the Bastille (July 14, 1789, the beginning of the French Revolution); Nicolas Poussin
+                    (1594-1665), as depicting the uprisings of the Fronde (1649, 1652) (see <hi rendition="#italic">Madeleine</hi>, 11-12). Pages 13-15 survive in a proof,
+                    corrected by HM. Here the first imaginary painting was originally "Cézanne's <hi rendition="#italic">Quatorze Juillet</hi>"——apparently altered because its
+                    subject, "14 July," was too close to David's. "Manet's <hi rendition="#italic">Massacres des Jours de Juin</hi>" was substituted. Manet actually painted
+                    the "Execution of Maximilian" (1867) and the executions of May 1871. HM's revisions produce a historical sequence, running from the strike of May 1, 1919,
+                    back through the risings of 1848, 1789, and 1652, to illustrate French political resistance.
+                </note>
+                <note n="299-301." xml:id="briggs.106" resp="Briggs" anchored="true" target="#range(l.299, l.301)">
+                    Like Clio (but not like Vronsky), the Virgin has been busy——creating business for (and later actually window-dressing) Paris's three largest and
+                    best-known department stores——les Galéries Lafayette, le Bon Marche (see line 95), and la Samaritaine. [The last two lines of this page and the first twelve
+                    of the next were cut from the 1973 edition].
+                </note>
+                <note n="300-302." xml:id="briggs.106.1" resp="Briggs" anchored="true" target="#range(l.300, l.302)">
+                    According to HM's notes (NP14), during Lent, department store windows displayed wax models dressed for First Communion in white veils and ties (knots
+                    of ribbon) as "bait," to encourage young girls to participate by showing the pretty clothes they could wear. But these "Waxen Pandoras" are also "bait" in a
+                    further sense, since (according to Hesiod, lines 80-82) Pandora was sent by Zeus to tempt Prometheus and punish him for stealing fire from the gods. Pandora
+                    was modeled from clay (not wax), and carried a jar containing all the evils of the world. When she opened it, they all flew out into the world, except Hope
+                    (HM's own name), left inside the jar.
+                </note>
+                <note n="305." xml:id="briggs.107" resp="Briggs" anchored="true" target="#l.305">
+                    <hi rendition="#italic">"Catéchisme de Persévérence,"</hi>  a popular nineteenth-century Catholic manual by Jean-Joseph Gaume. The decrees of the "Seven
+                    Œcumenical Councils" (Nicea I, 324 A.D.-Nicea II, 787 A.D.) embody the central doctrines of Christianity; "format" means "size"; 
+                    "<hi rendition="#italic">Bibliotheque Rose</hi>," a series of books for girls published by Hachette.
+                </note>
+                <note n="308-9." xml:id="briggs.108" resp="Briggs" anchored="true" target="#range(l.308, l.309)">
+                    "First Communion." Prometheus has swallowed the "bait" of Pandora, or the communion wafer, or is excited by the First Communicants.
+                </note>
+                <note n="310-12." xml:id="briggs.109" resp="Briggs" anchored="true" target="#range(l.310, l.312)">
+                    "Petits Lycéens," little high-school children. "Por-no-gra-phie," spelled out as if for children, is a Greek word meaning, literally, writings
+                    about prostitution; "pigmy brides" are miniature brides of Christ. "Pigmy" is a Greek word for the forearm or fist, anticipating the cannibal imagery
+                    that follows. ("teknophagiai," the eating of children, is discussed by JH in <hi rendition="#italic">Themis</hi> 248-49).
+                </note>
+                <note n="313-14." xml:id="briggs.110" resp="Briggs" anchored="true" target="#range(l.313, l.314)">
+                    "Little St. Hugh" (not an actual saint), according to anti-Semitic legend, a child murdered by Jews in Lincoln (1255). Chaucer's 
+                    <hi rendition="#italic">Prioress's Tale</hi> tells a similar story. By eating the body of Christ (the Jew) at first communion, the children
+                    "avenge" St. Hugh's murder.
+                </note>
+                <note n="315." xml:id="briggs.111" resp="Briggs" anchored="true" target="#l.315">
+                    A photographic studio in Paris? A peepshow?
+                </note>
+                <note n="319." xml:id="briggs.112" resp="Briggs" anchored="true" target="#l.319">
+                    Périgord is a rural region in south-western France, part of hte poem's tour of provinces.
+                </note>
+                <note n="320-23." xml:id="briggs.113" resp="Briggs" anchored="true" target="#range(l.320, l.323)">
+                    The Louvre is the great Palace at the heart of Paris, now an art gallery; the Ritz is a Hotel at 15, Place Vendôme; the Palais-Royal[e] is opposite
+                    the Louvre; the Hôtel de Ville, the Paris Mairie (or town hall), is east of the Louvre on the rue de Rivoli. All are solid, indeed massive buildings, that
+                    could only appear "light and frail" in a rising atmosphere of dreams (see line 265).
+                </note>
+                <note n="324-25." xml:id="briggs.114" resp="Briggs" anchored="true" target="#range(l.324, l.325)">
+                    "junketing," feasting, merrymaking. Masks and dominoes are carnival disguises (the domino is the cloak to go with the mask), typically worn by the
+                    aristocracy, but here by "citizens," thus anticipating the Revolution.
+                </note>
+                <note n="326." xml:id="briggs.115" resp="Briggs" anchored="true" target="#l.326">
+                    "On the occasion of the marriage of Monsieur le Dauphin," the marriage celebrations of the future Louis XVI to Marie-Antoinette. In the course of these
+                    (May 30-31, 1770), a display of fireworks created a stampede in which several hundred people were crushed to death or pushed into the river.
+                </note>
+                <note n="327-29." xml:id="briggs.116" resp="Briggs" anchored="true" target="#range(l.327, l.329)">
+                    The Hôtel de l'Elysée, 3, rue de Beaune, where HM stayed in Paris and apparently wrote this poem, was a hotel in the modern sense, as well as in
+                    the older sense of a grand town house, formerly the property of Mme du Deffand, famous for her <hi rendition="#italic">salon</hi>. "Tranced" (line 20, and
+                    perhaps 45), trance states, and the automatic writing they generated was to fascinate the surrealists. It is possible that the whole poem, flickering
+                    between "real" and imagined Paris sights, was generated by this "tranced" moment of gazing out of the window (Keatsian "magic casements, opening on the
+                    foam / Of perilous seas, in fairy lands forlorn"?)
+                </note>
+                <note n="330." xml:id="briggs.117" resp="Briggs" anchored="true" target="#l.330">
+                    "Hawkers...liturgically," street peddlars...in the style of a church service.
+                </note>
+                <note n="332-33." xml:id="briggs.118" resp="Briggs" anchored="true" target="#range(l.332, l.333)">
+                    "Triptolemos," a legendary king of Eleusis who founded the Mysteries and taught men agriculture (including how to make bread). As a baby (wrapped
+                    in swaddling clothes that make him "loaf-shaped"), he was loved by Demeter (Ceres), probably identified with the "women in black shawls."
+                </note>
+                <note n="333-34." xml:id="briggs.119" resp="Briggs" anchored="true" target="#range(l.333, l.334)">
+                    "Workmen in pale blue," wore denim overalls; "Barrows" belong to street vendors displaying their wares.
+                </note>
+                <note n="340." xml:id="briggs.120" resp="Briggs" anchored="true" target="#l.340">
+                    Ovid, roman poet and storyteller (43 B.C.-17 A.D.), exiled to Tomis on the Black Sea, but not a "thrall" (i.e., slave) in Fairyland (as was the narrator
+                    of Keats's poem, "La Belle Dame Sans Merci"). The resulting "lost romance" is imagined as having inspired Italian painters, as their "guild-secret," peculiar
+                    to their craft. 
+                </note>
+                <note n="347-48." xml:id="briggs.121" resp="Briggs" anchored="true" target="#range(l.347, l.348)">
+                    Three landmarks of seventeenth-century Paris to the north and east, by 1919 in a state of disrepair, and thus "exquisitely dying" (see line 41).
+                </note>
+                <note n="350." xml:id="briggs.122" resp="Briggs" anchored="true" target="#range(l.350, l.350.graphic)">
+                    Quiet was expected for the dying. The eight bars of music are marked "dim——in——u-end-do" (growing softer) to "ppp," pianissimo, very quiet indeed.
+                    The melancholy aria is "Lascia ch'io pianga," from Handel's opera <hi rendition="#italic">Rinaldo</hi> (1711), "Let me weep for my cruel fate, and let me sigh
+                    for my liberty" (recalling Ovid's misery in exile?).
+                </note>
+                <note n="351-52." xml:id="briggs.123" resp="Briggs" anchored="true" target="#range(l.351, l.352)">
+                    The beautiful church of Saint Thomas d'Aquin (begun 1688, completed 1766) stands near the end of the rue de Beaune. L'impasse des Deux Anges (the
+                    mews of the two angels), is close by. The angels may be linked with Jacob (see <hi rendition="#italic">Genesis</hi> 28.12, or 32.24-29), though "two angels"
+                    are particularly connected with Lot and the destruction of the cities of the plain (<hi rendition="#italic">Genesis</hi> 19.1-17), punished by God for
+                    homosexuality (see Cocteau, 28-29, 47; 45, 66). The name of the "impasse" may also suggest lesbianism. It was close to Natalie Barney's house (at 20, rue
+                    Jacob) and is referred to in Djuna Barnes's <hi rendition="#italic">The Ladies' Almanack</hi>.
+                </note>
+                <note n="353-54." xml:id="briggs.124" resp="Briggs" anchored="true" target="#range(l.353, l.354)">
+                    "Impasse," a blind alley, also suggests "deadlock" (both in French and English), and "impassive" (i.e., blank or inexpressive, 
+                    <hi rendition="#italic">impassible</hi>). The French expression for walls without windows, <hi rendition="#italic">murs aveugles</hi> (blind walls) may
+                    have suggested the comparison with blind dogs. The ghosts, watched by the "impassive windows" (compare line 108), introduce a pageant of the city's
+                    famous dead.
+                </note>
+                <note n="358." xml:id="briggs.125" resp="Briggs" anchored="true" target="#l.358">
+                    Sebastopol, port on the Black sea, besieged and eventually captured (1856), by English and French troops (greatly aided by Algerians, the "Zouaves")
+                    during the Crimean War, and commemorated by a street name and a metro station. [HM altered the nun's "Masses" to "dirges" in the 1973 edition.]
+                </note>
+                <note n="359-66." xml:id="briggs.126" resp="Briggs" anchored="true" target="#range(l.359, l.366)">
+                    The memorial plaque for the playwright (1622-73) on his house at 40, rue de Richelieu, on the Right Bank, north of the Louvre (see lines 153, 204).
+                    "The dying seventeenth century" is followed by the memorial plaque for the Enlightenment philosopher Voltaire (1694-1778), who died at no.1, rue de Beaune,
+                    next to or even part of HM's hotel.
+                </note>
+                <note n="367-70." xml:id="briggs.127" resp="Briggs" anchored="true" target="#range(l.367, l.370)">
+                    Chateaubriand, Romantic poet and memoirist (1768-1848), died close by, at 118-120 rue du Bac, with the blind Mme Récamier at his bedside (lines
+                    64-65). These writers typify three different centuries, and three different French styles.
+                </note>
+                <note n="372-74." xml:id="briggs.128" resp="Briggs" anchored="true" target="#range(l.372, l.374)">
+                    "Paradise" is almost an anagram of "Paris" and "dies." Les Champs Elysées, Paris's most famous avenue, means "the Elysian fields," in classical 
+                    literature, the home of the dead.
+                </note>
+                <note n="375-76." xml:id="briggs.129" resp="Briggs" anchored="true" target="#range(l.375, l.376)">
+                    The French critic Charles Sainte-Beuve (1804-69) was the friend and rival of the poet and novelist Victor Hugo (1802-85), and the lover of his wife
+                    Adèle. The Pont Neuf ("New Bridge," now the oldest, completed 1604) would take Saint-Beuve from his house on the Left Bank to the Right (where the Hugos
+                    lived, at 6 place des Vosges).
+                </note>
+                <note n="377-80." xml:id="briggs.130" resp="Briggs" anchored="true" target="#range(l.377, l.380)">
+                    The duc de la Rochefoucauld (1613-80), author of <hi rendition="#italic">Maximes</hi> (1664) and a close friend of Mme de Lafayette (1634-93), 
+                    author of <hi rendition="#italic">La Princesse de Clèves</hi> (1678). He passes Saint-Beuve on the Pont Neuf as he crosses to the Left Bank to visit Mme 
+                    Lafayette in the rue Ferou. They cannot see each other, perhaps because of the centuries between them, but the duc had figured in Saint-Beuve's great study
+                    of the seventeenth century, <hi rendition="#italic">Port-Royal</hi> (1840-59). The "<hi rendition="#italic">salon d'automne</hi>" exhibited avant-garde 
+                    painting; it was originally formed by a group of fauvists and postimpressionists in 1903 (Shattuck 61). 
+                </note>
+                <note n="382." xml:id="briggs.131" resp="Briggs" anchored="true" target="#l.382">
+                    "It's close, sultry" (literally, heavy, as in "Heavy sweet going," line 311). 
+                </note>
+                <note n="384." xml:id="briggs.132" resp="Briggs" anchored="true" target="#l.384">
+                    "Benediction," a Catholic service. "Notre-Dame-des-Champs" (Our-Lady-of-the-fields), one of the oldest churches in Paris; formerly standing in fields on
+                    Montparnasse, was rebuilt in 1876. Its metro station is south of rue du Bac on the Nord-Sud line, between Port-Royal (line 439) and the garden of the nuns of
+                    St. Vincent de Paul, on the rue de Babylone (now the Jardin Catherine Laboure).
+                </note>
+                <note n="386-89." xml:id="briggs.133" resp="Briggs" anchored="true" target="#range(l.386, l.389)">
+                    The Virgin wears the elaborately starched headdress of the nuns of St. Vincent de Paul (winged like the Roman helmets of line 172) and probably sits
+                    in their convent garden (see above), where the west wall would have been covered with plum and apricot trees, and there are still box hedges. The Holy Ghost
+                    descended as a dove, and "cooing" and "(dove)-cots" are common to babies and doves (compare Cocteau 22: "Dieu roucoule au sommet des arbres"). 
+                </note>
+                <note n="390." xml:id="briggs.134" resp="Briggs" anchored="true" target="#l.390">
+                    "The Seven Stages," possibly half of the fourteen Stations of the Cross, performed on Good Friday, representing Christ's final sufferings; "cut in box"
+                    either means carved in boxwood, or from topiary (pruning box hedges into shapes). Churches display branches of box during Easter week. [The last five lines
+                    of this page and the first six lines of the next were omitted from the 1973 edition.]
+                </note>
+                <note n="391-93." xml:id="briggs.135" resp="Briggs" anchored="true" target="#range(l.391, l.393)">
+                    White ("Madonna") lilies, the Virgin's flower. Votive offerings result from a religious promise. The Jap(anese) convert is the painter L. T. Foujita
+                    (1886-1968), who painted pictures of the Virgin and Child in soft colors (1917-18), often in shapes resembling bulbs. 
+                </note>
+                <note n="394-95." xml:id="briggs.136" resp="Briggs" anchored="true" target="#range(l.394, l.395)">
+                    "troubadour," Provencal wandering minstrel. The cult of courtly love voiced in troubadour poetry was linked with the cult of the Virgin; "her," i.e.,
+                    to her. "Venial sins" are lesser than Deadly Sins (at lines 120, 426-27).
+                </note>
+                <note n="397-98." xml:id="briggs.137" resp="Briggs" anchored="true" target="#range(l.397, l.398)">
+                    The garden wall becomes the evening sky, hung with the plums of Paradise, where wasps never fret (eat away) the fruit; on the Solférino bridge, 
+                    however, people look like flies, nibbling into the apricot (colored) sky (lines 399-401).
+                </note>
+                <note n="399-400." xml:id="briggs.138" resp="Briggs" anchored="true" target="#range(l.399, l.400) #l.403"><!--CHECK...add #403-->
+                    "Freedom!" "The Press!" names of evening newspapers shouted by street vendors. 
+                </note>
+                <note n="401-2." xml:id="briggs.139" resp="Briggs" anchored="true" target="#range(l.401, l.402)">
+                    "Petit-Palais," built for the 1900 World Exhibition, west of the Place de Concorde, and perhaps just visible from a high west-facing window at
+                    the end of the rue de Beaune. At susnset in the Algerian desert the "muezzin" gives the Muslim call to prayer.
+                </note>
+                <note n="407-12." xml:id="briggs.140" resp="Briggs" anchored="true" target="#range(l.407, l.412)">
+                    "Fiacres," light horse-drawn four-wheeled cabs. Looking west-ward, HM might just have seen figures on the old Pont Solférino (demolished 1961),
+                    silhouetted like flies against the celestial (heavenly) evening haze; "tippetted pelisse," a fur-collared cloak. Louis-Philippe, "the citizen king," reigned
+                    1830-48, when portraits in silhouette, cut from black paper, were in vogue. 
+                </note>
+                <note n="413-14." xml:id="briggs.141" resp="Briggs" anchored="true" target="#range(l.413, l.414)">
+                    The Quais are the streets along the banks of the Seine, where the "bouquinistes" (box-owners, booksellers) sell their wares from green boxes, which they
+                    lock up at night.
+                </note>
+                <note n="415." xml:id="briggs.142" resp="Briggs" anchored="true" target="#l.415">
+                    Paris has twenty <hi rendition="#italic">arrondissements</hi> (administrative districts). The VIIme lies immediately south of the river, on the Left Bank,
+                    and includes the rue de Beaune, like the neighboring VIme, this was an up-market address, known as the "Faubourg Saint-Germain."
+                </note>
+                <note n="418." xml:id="briggs.143" resp="Briggs" anchored="true" target="#l.418">
+                    "Hyperbórean," northern. The poem prepares to move up to Montmartre, in the north of Paris. 
+                </note>
+                <note n="421." xml:id="briggs.144" resp="Briggs" anchored="true" target="#l.421">
+                    "Ramparts," mounds built for defense. The Louvre was initially built as a fortress (in 1200). Here ramparts keep the river, and perhaps the unconscious,
+                    at bay.
+                </note>
+                <note n="422-23." xml:id="briggs.145" resp="Briggs" anchored="true" target="#range(l.422, l.423)">
+                    Sigmund Freud (1856-1939), Viennese theorist of sexuality and the unconscious, dredges the river, associated with rising dreams (lines 269-72). The
+                    combination of Freud and electricity evokes modern life. Paris had had electrically lit advertisements from 1912 (Higonnet 145, 358, and compare "Contrastes":
+                    "Il pleut les globes electriques," Cendrars 71).
+                </note>
+                <note n="424-26." xml:id="briggs.146" resp="Briggs" anchored="true" target="#range(l.424, l.426)">
+                    Taxis line up on the page, as they do on the streets.
+                </note>
+                <note n="429." xml:id="briggs.147" resp="Briggs" anchored="true" target="#l.429">
+                    "their meat," perhaps their clients (see line 4; the opening themes are now replayed). 
+                </note>
+                <note n="430." xml:id="briggs.148" resp="Briggs" anchored="true" target="#l.430">
+                    "padre," "Father" (a Catholic priest) strikes at the Moulin Rouge (literally, the Red Windmill), Paris's most famous cabaret show (on the Place Blanche,
+                    Montmartre). To tilt with windmills is to make an ineffectual attack (from <hi rendition="#italic">Don Quixote</hi>).
+                </note>
+                <note n="431." xml:id="briggs.149" resp="Briggs" anchored="true" target="#l.431">
+                    Black music notes become African American musicians playing jazz; "syncopation," shifting of the regular musical beat, as in jazz. Today this sentence is
+                    disturbingly racist, although the black musicians, like the lesbians in the following lines, introduce a liberating discourse of racial and sexual alterity.
+                    Jazz was brought to Paris by black U.S. army bands at the end of World War I, and was fashionable in Montmartre (Higonnet 341).
+                </note>
+                <note n="433." xml:id="briggs.150" resp="Briggs" anchored="true" target="#l.433"> <!--CHECK...add #438 ....made change and deleted second target l.438-->
+                    Literally, all the cards (or maps) work with, walk with or go out with a match, but the exact meaning is hard to decide. It might refer to packs
+                    of cards given out in cafés, with boxes of matches, but "cartes" was also slang for prostitutes, and an "allumette" might be a sexual tease, or even a penis.
+                    A song refrain?
+                </note>
+                <note n="434." xml:id="briggs.151" resp="Briggs" anchored="true" target="#l.434">
+                    Fifty pairs of glasses, designed to correct American "astigmatism" (a sight defect that prevents focusing), reflect a (leg) show, saucily entitled
+                    "the Masque of the Seven Deadly Sins" (see line 120), a pseudo-religious title for a secular event, perhaps suggesting a further clash between the Virgin
+                    and "The wicked April moon."
+                </note>
+                <note n="424-26." xml:id="briggs.152" resp="Briggs" anchored="true" target="#range(l.436, l.438)">
+                    Stage performers, like courtesans, were often supposed lesbian, and lesbianism was fashionable in Paris at this time (Higonnet 112-13). The spelling
+                    "gurls" may indicate an American accent, but "girls" was also French slang for both lesbians and chorus girls. 
+                </note>
+                <note n="439." xml:id="briggs.153" resp="Briggs" anchored="true" target="#l.439">
+                    Dawn brings the poem's time scheme of a single day to a close. 
+                </note>
+                <note n="440." xml:id="briggs.154" resp="Briggs" anchored="true" target="#l.440">
+                    Paul Verlaine (1844-96), lyric poet and decadent, fell in love with the precocious poet Arthur Rimbaud (1854-91), author of "L'Alchimie du verbe" (a
+                    section of his prose poem, <hi rendition="#italic">Une Saison en Enfer</hi>). "Alchemy," the transformation of base metals into gold, is also a figure
+                    for the coming of dawn. "absynthe" [unusually spelled with a "y"] is a powerful green spirit distilled from wormwood to which Verlaine was addicted.
+                    Picasso's 1903 painting, "Portrait du poète Cornuti, ou l'Absinthe" is a form of homage to Verlaine. Algerian tobacco was used to roll cheap cigarettes
+                    and joints (lines 3, 203). 
+                </note>
+                <note n="445-46." xml:id="briggs.155" resp="Briggs" anchored="true" target="#range(l.445, l.446)">
+                    Raymond Poincaré was president of France (1913-20). The poem here rocks between homosexuality and heterosexuality (the marriage bed, birth), 
+                    between couples and single lives. 
+                </note>
+                <note n="447." xml:id="briggs.156" resp="Briggs" anchored="true" target="#l.447">
+                    "Port-Royal," maternity hospital on the Left Bank, formerly a convent associated with Jansenism (NP15), a movement within the French seventeenth
+                    century church persecuted by the authorities (and the focus of Saint-Beuve's study, <hi rendition="#italic">Port-Royal</hi>). In chapter XVI of
+                    <hi rendition="#italic">Madeleine</hi>, Madeleine visits the Abbaye, whose mistress, Mère Agnès Arnauld, is a portrait of JH (157). 
+                </note>
+                <note n="448-49." xml:id="briggs.157" resp="Briggs" anchored="true" target="#range(l.448, l.449)">
+                    This line suggests Duncan Grant's painting "Le Crime et le Châtiment" (ca. 1909), especially since Dostoevsky's novel (1866) was usually translated
+                    "<hi rendition="#italic">Crime et Chàtiment</hi>." HM knew Grant, and may have known that the painting showed Marjorie Strachey reading that novel. 
+                </note>
+                <note n="451." xml:id="briggs.158" resp="Briggs" anchored="true" target="#l.451">
+                    "Les Halles," until the late 1960s, Paris's main food market, rebuilt of wrought iron and glass (1866). 
+                </note>
+                <note n="454." xml:id="briggs.159" resp="Briggs" anchored="true" target="#l.454">
+                    "I salute you Paris full of grace," echoing the Catholic prayer, "Ave Maria," "Je vous salue Marie pleine de grace" (see Dedication; Cocteau 82: "Je
+                    vous salue pleine de grace...o sainte mère").
+                </note>
+                <note n="455-59." xml:id="briggs.160" resp="Briggs" anchored="true" target="#range(l.455, l.459)">
+                    The poem ends with the constellation of Ursa Major, the great she-bear, part of the private code between HM and JH, who sometimes signed off letters
+                    to HM with this star-sign in reverse.
+                </note>
+                <note n="462." xml:id="briggs.161" resp="Briggs" anchored="true" target="#l.462">
+                    [1916, the "6" overwritten as "9"] 
+                    On the final page, HM makes a further highly original gesture by providing a set of notes to her admittedly difficult poem. Though not without precedent
+                    (Pope had annotated his "Dunciad"), it was unusual for an author to annotate her own text thus. Brief and fragmentary though her notes are, they offer a
+                    fresh perspective on the poem, and incidentally anticipate T. S. Eliot's use of notes in <hi rendition="#italic">The Waste Land</hi> (1922). 
+                </note>
+            </div>
+        </body>
+    </text>    
+</TEI>

@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Paris</title>
+            </titleStmt>
+            <publicationStmt>
+                <p part="N">HOLD FOR INFORMATION ABOUT THIS PUBLICATION</p>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <p part="N">HOLD FOR INFORMATION ABOUT THE SOURCE</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                
+                <rendition xml:id="italic" scheme="css">
+                    font-style:italic;
+                </rendition>
+                
+                <rendition xml:id="small-caps" scheme="css">
+                    font-variant:small-caps;
+                </rendition>
+                
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="en">English</language><!--XML:Do I need this?-->
+                <language ident="fr">French</language>
+                <language ident="latn">Latin</language>
+                <language ident="gr">Greek</language>
+                <language ident="ru">Russian</language>
+                <language ident="it">Italian</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <note n="1" xml:id="briggs.1" resp="Briggs" anchored="true" target="#range(l.0.8, l.0.11)">
+                Dedication: "To our lady of Paris in recognition of graces granted." "Our Lady of Paris," both the Virgin Mary
+                and the cathedral dedicated to her on the Ile-de-la-Cite, at the center of Paris, with an echo of the prayer
+                "Ave Maria, gratia piena" ("Hail Mary, full of grace"——see line 445). The frame suggests that of a votive plaque
+                such as might be hung in a church. From the outset, Paris is addressed as a woman.
+                </note>
+                <note n="2" xml:id="briggs.2" resp="Briggs" anchored="true" target="#l.1">
+                    1. "holophrase," a single word standing for a phrase, sentence, or complex of ideas, and according to Jane Harrison (JH)
+                    characteristic of an early stage of language development (473-75). "I want" can also mean "I lack." Holophrase puns on "hollow phrase."
+                </note>
+                <note xml:id="briggs.3" resp="Briggs" anchored="true" target="#l.2">
+                    2. Metro line from Montparnasse to Montmartre, now line 12 (N[ote]P1).
+                </note>
+                <note xml:id="briggs.4" resp="Briggs" anchored="true" target="#range(l.3, l.6)">
+                    3-6. Brand names on metro posters (NP1): "Zig-Zag," type of cigarette paper advertised with the head of a "zouave,"
+                    an Algerian soldier (and anticipating the poem's zig-zag directio through the city); "Lion Noir" (black lion), a brand of shoe polish;
+                    "Cacao Blooker," Dutch make of drinking chocolate. These introduce themes of empire and of <hi rendition="#italic">négritude</hi> (blackness),
+                    further linked with "Black-figured vases" (550-480 B.C.), found in Etruscan burial chambers.
+                </note>
+                <note xml:id="briggs.5" resp="Briggs" anchored="true" target="#range(l.7, l.9)">
+                    7-9. "Rue du Bac," "Solférino" and "Chambre des Députés" (no "Assemblée Nationale"), the three most northerly stations on the
+                    Nord-Sud line south of the river (rue du Bac is next to rue de Beaune, where HM lived while writing the poem) "Solférino," 
+                    named for a French victoria over Austria in Italy (1859). From 1832, the Chambre des Députés was the Frenhc lower house of government.
+                    "Dubonnet," brand of fortified wine advertised in metro tunnels, HM's curved brackets suggesting the walls of the metro on which the posters appeared.
+                </note>
+                <note xml:id="briggs.6" resp="Briggs" anchored="true" target="#1.10">
+                    10. "Brekekekek coax coax," chorus of... e
+                </note>
+                <note xml:id="briggs.7" resp="Briggs" anchored="true" target="#range(l.12, l.13)">
+                    12-13. "The Scarlet Woman"...
+                </note>
+                <note xml:id="briggs.8" resp="Briggs" anchored="true" target="#1.14">
+                    14. "Are you you getting off here, madame?"...
+                </note>
+                <note xml:id="briggs.9" resp="Briggs" anchored="true" target="#range(l.15, l.16)">
+                    15-16. "Those who weigh themselves up..."
+                </note>
+                <note xml:id="briggs.10" resp="Briggs" anchored="true" target="#1.17">
+                    17. The speaker alights
+                </note>
+                <note xml:id="briggs.11" resp="Briggs" anchored="true" target="#range(l.20, l.22)">
+                    20-22. The spaced-out layout
+                </note>
+                <note xml:id="briggs.12" resp="Briggs" anchored="true" target="#range(l.23, l.26)">
+                    23-26. Little boys riding on a carousel
+                </note>
+                <note xml:id="briggs.13" resp="Briggs" anchored="true" target="#range(l.27, l.29)">
+                    27-29. The pigeons appear to be joined to the statues
+                </note>
+                <note xml:id="briggs.14" resp="Briggs" anchored="true" target="#range(l.30, l.34)">
+                    30-34. Some statues are of nymphs
+                </note>
+                <note xml:id="briggs.15" resp="Briggs" anchored="true" target="#range(l.34, l.39)">
+                    34-39. Leon Gambetta
+                </note>
+                <note xml:id="briggs.16" resp="Briggs" anchored="true" target="#1.36">
+                    36. <hi rendition="#italic">tutoiement</hi>
+                </note>
+                <note xml:id="briggs.17" resp="Briggs" anchored="true" target="#1.37">
+                    37. "But it makes sense."
+                </note>
+                <note xml:id="briggs.18" resp="Briggs" anchored="true" target="#1.38">
+                    38. Esprit Français
+                </note>
+                <note xml:id="briggs.19" resp="Briggs" anchored="true" target="#range(l.40, l.42)">
+                    40-42. "Secrets,"
+                </note>
+                <note xml:id="briggs.20" resp="Briggs" anchored="true" target="#range(l.34, l.39)">
+                    43-50. (Exquisite / significant secrets)
+                </note>
+                <note xml:id="briggs.21" resp="Briggs" anchored="true" target="#1.51">
+                    51. (Significant / plastic secrets)
+                </note>
+                <note xml:id="briggs.22" resp="Briggs" anchored="true" target="#1.54">
+                    54. ("Fade" or fading secrets) Of...
+                </note>
+                <note xml:id="briggs.23" resp="Briggs" anchored="true" target="#range(l.55, l.56)">
+                    55-56. From the Place du Carousel
+                </note>
+                <note xml:id="briggs.24" resp="Briggs" anchored="true" target="#1.58">
+                    58. Salle Caillebotte
+                </note>
+                <note xml:id="briggs.25" resp="Briggs" anchored="true" target="#1.59">
+                    59. The journey through Paris continues
+                </note>
+                <note xml:id="briggs.26" resp="Briggs" anchored="true" target="#range(l.60, l.61)">
+                    60-61. "The Etoile,"
+                </note>
+                <note xml:id="briggs.27" resp="Briggs" anchored="true" target="#1.62">
+                    62. In J-K Huysman's
+                </note>
+                <note xml:id="briggs.28" resp="Briggs" anchored="true" target="#1.63">
+                    63. "Spinario,"
+                </note>
+                <note xml:id="briggs.29" resp="Briggs" anchored="true" target="#range(l.64, l.65)">
+                    64-65. Juliette Récamier,
+                </note>
+                <note xml:id="briggs.30" resp="Briggs" anchored="true" target="#range(l.67, l.68)">
+                    67-68. "Saunters"
+                </note>
+                <note xml:id="briggs.31" resp="Briggs" anchored="true" target="#1.70">
+                    69. Auvergnat
+                </note>
+                <note xml:id="briggs.32" resp="Briggs" anchored="true" target="#range(l.72, l.77)">
+                    71-76. "Saunters"
+                </note>
+                <note xml:id="briggs.33" resp="Briggs" anchored="true" target="#1.78">
+                    77. The Gallic cock
+                </note>
+                <note xml:id="briggs.34" resp="Briggs" anchored="true" target="#1.84">
+                    83. That is, peace
+                </note>
+                <note xml:id="briggs.35" resp="Briggs" anchored="true" target="#range(l.86, l.88)">
+                    85-87. The spirit of the year is laid out
+                </note>
+                <note xml:id="briggs.36" resp="Briggs" anchored="true" target="#range(l.90, l.93)">
+                    89-92. Children hung with amulets
+                </note>
+                <note xml:id="briggs.37" resp="Briggs" anchored="true" target="#range(l.95, l.99)">
+                    94-98. "At Bon Marche
+                </note>
+                <note xml:id="briggs.38" resp="Briggs" anchored="true" target="#1.100">
+                    99. "jeunesse dorée,"
+                </note>
+                <note xml:id="briggs.39" resp="Briggs" anchored="true" target="#range(l.101, l.102)">
+                    100-101. Mauve or purple
+                </note>
+                <note xml:id="briggs.40" resp="Briggs" anchored="true" target="#range(l.104, l.105)">
+                    103-4. "Crocuses, / Chionodoxa,"
+                </note>
+                <note xml:id="briggs.41" resp="Briggs" anchored="true" target="#range(l.107, l.108)">
+                    106-8. "chef d'oeuvre,"
+                </note>
+                <note xml:id="briggs.42" resp="Briggs" anchored="true" target="#range(l.111, l.114)">
+                    110-113. "Roses from Lyons,"
+                </note>
+                <note xml:id="briggs.43" resp="Briggs" anchored="true" target="#range(l.115, l.116)">
+                    114-15. French painter
+                </note>
+                <note xml:id="briggs.44" resp="Briggs" anchored="true" target="#range(l.117, l.121)">
+                    116-21. In February
+                </note>
+                <note xml:id="briggs.45" resp="Briggs" anchored="true" target="#range(l.123, l.125)">
+                    122-24. "Unetiolated,"
+                </note>
+                <note xml:id="briggs.46" resp="Briggs" anchored="true" target="#range(l.126, l.128)">
+                    125-27. Greeted rapturously
+                </note>
+                <note xml:id="briggs.47" resp="Briggs" anchored="true" target="#1.129">
+                    128. "chrysalids,"
+                </note>
+                <note xml:id="briggs.48" resp="Briggs" anchored="true" target="#1.132">
+                    131. Easter
+                </note>
+                <note xml:id="briggs.49" resp="Briggs" anchored="true" target="#1.134">
+                    133. Ritual self-flagellation
+                </note>
+                <note xml:id="briggs.50" resp="Briggs" anchored="true" target="#1.136">
+                    135. Little Jesus does
+                </note>
+                <note xml:id="briggs.51" resp="Briggs" anchored="true" target="#1.137">
+                    136. Lilac flowers
+                </note>
+                <note xml:id="briggs.52" resp="Briggs" anchored="true" target="#range(l.126, l.128)">
+                    137-38. <hi rendition="#italic">Song of Solomon</hi>
+                </note>
+                <note xml:id="briggs.53" resp="Briggs" anchored="true" target="#range(l.140, l.142)">
+                    139-41. "Quality milk
+                </note>
+                <note xml:id="briggs.54" resp="Briggs" anchored="true" target="#range(l.143, l.144)">
+                    142-43. "The telephone directory
+                </note>
+                <note xml:id="briggs.55" resp="Briggs" anchored="true" target="#range(l.145, l.146)">
+                    144-45. "Delicatessen,
+                </note>
+                <note xml:id="briggs.56" resp="Briggs" anchored="true" target="#range(l.147, l.148)">
+                    146-47. "Pre-meal drinks"
+                </note>
+                <note xml:id="briggs.57" resp="Briggs" anchored="true" target="#1.149">
+                    148. "Your clothes dyed
+                </note>
+                <note xml:id="briggs.58" resp="Briggs" anchored="true" target="#1.150">
+                    149. "Gentlemen-and-ladies
+                </note>
+                <note xml:id="briggs.59" resp="Briggs" anchored="true" target="#range(l.151, l.155)">
+                    150-54. A Roman temple
+                </note>
+                <note xml:id="briggs.60" resp="Briggs" anchored="true" target="#range(l.154, l.155)">
+                    153-54. Harpagon is
+                </note>
+                <note xml:id="briggs.61" resp="Briggs" anchored="true" target="#range(l.156, l.157)">
+                    155-56. In a typical
+                </note>
+                <note xml:id="briggs.62" resp="Briggs" anchored="true" target="#range(l.159, l.161)">
+                    158-60. "Don't close the door
+                </note>
+                <note xml:id="briggs.63" resp="Briggs" anchored="true" target="#1.162">
+                    161. ouvriers
+                </note>
+                <note xml:id="briggs.64" resp="Briggs" anchored="true" target="#1.163">
+                    162. "the eight-hour day,"
+                </note>
+                <note xml:id="briggs.65" resp="Briggs" anchored="true" target="#1.165">
+                    163. Henri Landru
+                </note>
+                <note xml:id="briggs.66" resp="Briggs" anchored="true" target="#1.166">
+                    164. According to a programme
+                </note>
+                <note xml:id="briggs.67" resp="Briggs" anchored="true" target="#1.167">
+                    165. On February 19
+                </note>
+                <note xml:id="briggs.68" resp="Briggs" anchored="true" target="#range(l.169, l.172)">
+                    167-70. Four adjectives
+                </note>
+                <note xml:id="briggs.69" resp="Briggs" anchored="true" target="#range(l.173, l.176)">
+                    171-74. The Roman legions
+                </note>
+                <note xml:id="briggs.70" resp="Briggs" anchored="true" target="#range(l.177, l.180)">
+                    175-77. Père Lachaise
+                </note>
+                <note xml:id="briggs.71" resp="Briggs" anchored="true" target="#1.183">
+                    180. Henri Rousseau
+                </note>
+                <note xml:id="briggs.72" resp="Briggs" anchored="true" target="#range(l.184, l.185)">
+                    181-82. The artistic representation
+                </note>
+                <note xml:id="briggs.73" resp="Briggs" anchored="true" target="#1.186">
+                    183. <hi rendition="#italic">"gaillards,"</hi>
+                </note>
+                <note xml:id="briggs.74" resp="Briggs" anchored="true" target="#1.187">
+                    184. <hi rendition="#italic">"eidola,"</hi>
+                </note>
+                <note xml:id="briggs.75" resp="Briggs" anchored="true" target="#1.189">
+                    186. Killed in action
+                </note>
+                <note xml:id="briggs.76" resp="Briggs" anchored="true" target="#range(l.189, l.190)">
+                    188-89. "The poor man!"
+                </note>
+                <note xml:id="briggs.77" resp="Briggs" anchored="true" target="#1.193">
+                    190. "petites bourgeoises,"
+                </note>
+                <note xml:id="briggs.78" resp="Briggs" anchored="true" target="#1.197">
+                    194. ghoul-like
+                </note>
+                <note xml:id="briggs.79" resp="Briggs" anchored="true" target="#range(l.199, l.200)">
+                    196-97. The battle of the Marne
+                </note>
+                <note xml:id="briggs.80" resp="Briggs" anchored="true" target="#1.201">
+                    198. "The Grand[s]
+                </note>
+                <note xml:id="briggs.81" resp="Briggs" anchored="true" target="#range(l.203, l.206)">
+                    200-203. "Cloacæ"
+                </note>
+                <note xml:id="briggs.82" resp="Briggs" anchored="true" target="#range(l.207, l.208)">
+                    204-5. "Monsieur Jordain,"
+                </note>
+                <note xml:id="briggs.83" resp="Briggs" anchored="true" target="#1.209">
+                    206. "Dat's good!"
+                </note>
+                <note xml:id="briggs.84" resp="Briggs" anchored="true" target="#1.211">
+                    208. "YANKEES,"
+                </note>
+                <note xml:id="briggs.85" resp="Briggs" anchored="true" target="#range(l.212, l.213)">
+                    209-10. <hi rendition="#italic">"Mardi gras,"</hi>
+                </note>
+                <note xml:id="briggs.86" resp="Briggs" anchored="true" target="#range(l.214, l.216)">
+                    211-13.Crépes
+                </note>
+                <note xml:id="briggs.87" resp="Briggs" anchored="true" target="#1.217">
+                    214. "The women
+                </note>
+                <note xml:id="briggs.88" resp="Briggs" anchored="true" target="#1.219">
+                    216. Square-cut beards
+                </note>
+                <note xml:id="briggs.89" resp="Briggs" anchored="true" target="#1.221">
+                    218. Tart:
+                </note>
+                <note xml:id="briggs.90" resp="Briggs" anchored="true" target="#range(l.223, l.224)">
+                    220-21."Yesyesyes,
+                </note>
+                <note xml:id="briggs.91" resp="Briggs" anchored="true" target="#range(l.225, l.227)">
+                    222-24."A-a-ah yes,
+                </note>
+                <note xml:id="briggs.92" resp="Briggs" anchored="true" target="#1.228">
+                    225. "catalepsy,"
+                </note>
+                <note xml:id="briggs.93" resp="Briggs" anchored="true" target="#range(l.229, l.234)">
+                    226-31.Subaqueous
+                </note>
+                <note xml:id="briggs.94" resp="Briggs" anchored="true" target="#range(l.237, l.237)">
+                    233-34.With these lines,
+                </note>
+                <note xml:id="briggs.95" resp="Briggs" anchored="true" target="#range(l.238, l.262)">
+                    235-59. May I
+                </note>
+                <note xml:id="briggs.96" resp="Briggs" anchored="true" target="#range(l.263, l.265)">
+                    260-62. The struggle
+                </note>
+                <note xml:id="briggs.97" resp="Briggs" anchored="true" target="#1.266">
+                    263. Punning on the English
+                </note>
+                <note xml:id="briggs.98" resp="Briggs" anchored="true" target="#1.271">
+                    268. "the mysterious
+                </note>
+                <note xml:id="briggs.99" resp="Briggs" anchored="true" target="#range(l.272, l.274)">
+                    269-71. The Seine
+                </note>
+                <note xml:id="briggs.100" resp="Briggs" anchored="true" target="#1.275">
+                    272. "King-fishers,"
+                </note>
+                <note xml:id="briggs.101" resp="Briggs" anchored="true" target="#range(l.277, l.278)">
+                    273-74. Paris now
+                </note>
+                <note xml:id="briggs.102" resp="Briggs" anchored="true" target="#range(l.279, l.283)">
+                    275-79. The <hi rendition="#italic">Poilus</hi>
+                </note>
+                <note xml:id="briggs.103" resp="Briggs" anchored="true" target="#range(l.284, l.289)">
+                    280-85. "Désœvrement"
+                </note>
+                <note xml:id="briggs.104" resp="Briggs" anchored="true" target="#range(l.290, l.293)">
+                    286-89. Even the most violent
+                </note>
+                <note xml:id="briggs.105" resp="Briggs" anchored="true" target="#range(l.295, l.298)">
+                    290-93. Manet's <hi rendition="#italic">Massacres</hi>
+                </note>
+                <note xml:id="briggs.106" resp="Briggs" anchored="true" target="#range(l.300, l.302)">
+                    295-97. According to 
+                </note>
+                <note xml:id="briggs.107" resp="Briggs" anchored="true" target="#1.305">
+                    298. <hi rendition="#italic">"Catéchisme de Persévérence,"</hi>
+                </note>
+                <note xml:id="briggs.108" resp="Briggs" anchored="true" target="#range(l.308, l.309)">
+                    301-2. "First Communion."
+                </note>
+                <note xml:id="briggs.109" resp="Briggs" anchored="true" target="#range(l.310, l.312)">
+                    303-5. "Petits Lycéens,"
+                </note>
+                <note xml:id="briggs.110" resp="Briggs" anchored="true" target="#range(l.313, l.314)">
+                    306-7. "Little St. Hugh" 
+                </note>
+                <note xml:id="briggs.111" resp="Briggs" anchored="true" target="#1.315">
+                    308. A photographic studio in Paris? A peepshow?
+                </note>
+                <note xml:id="briggs.112" resp="Briggs" anchored="true" target="#1.319">
+                    312. Périgord
+                </note>
+                <note xml:id="briggs.113" resp="Briggs" anchored="true" target="#range(l.320, l.323)">
+                    313-15. The Louvre
+                </note>
+                <note xml:id="briggs.114" resp="Briggs" anchored="true" target="#range(l.324, l.325)">
+                    316-17. "junketing"
+                </note>
+                <note xml:id="briggs.115" resp="Briggs" anchored="true" target="#1.326">
+                    318. "On the occasion
+                </note>
+                <note xml:id="briggs.116" resp="Briggs" anchored="true" target="#range(l.327, l.329)">
+                    319-21. The Hôtel de l'Elysée
+                </note>
+                <note xml:id="briggs.117" resp="Briggs" anchored="true" target="#1.330">
+                    322. "Hawkers...liturgically,"
+                </note>
+                <note xml:id="briggs.118" resp="Briggs" anchored="true" target="#range(l.332, l.333)">
+                    323-24. "Triptolemos,"
+                </note>
+                <note xml:id="briggs.119" resp="Briggs" anchored="true" target="#range(l.333, l.334)">
+                    325-26. "Workmen in pale blue,"
+                </note>
+                <note xml:id="briggs.120" resp="Briggs" anchored="true" target="#1.340">
+                    332. Ovid,
+                </note>
+                <note xml:id="briggs.121" resp="Briggs" anchored="true" target="#range(l.347, l.348)">
+                    339-40. Three landmarks
+                </note>
+                <note xml:id="briggs.122" resp="Briggs" anchored="true" target="#range(l.350, l.350.graphic)">
+                    342-45. Quiet was expected for the dying
+                </note>
+                <note xml:id="briggs.123" resp="Briggs" anchored="true" target="#range(l.351, l.352)">
+                    346-47. The beautiful church
+                </note>
+                <note xml:id="briggs.124" resp="Briggs" anchored="true" target="#range(l.353, l.354)">
+                    348-50. "Impasse,"
+                </note>
+                <note xml:id="briggs.125" resp="Briggs" anchored="true" target="#1.358">
+                    353. Sebastopol
+                </note>
+                <note xml:id="briggs.126" resp="Briggs" anchored="true" target="#range(l.359, l.366)">
+                    354-61. The memorial plaque
+                </note>
+                <note xml:id="briggs.127" resp="Briggs" anchored="true" target="#range(l.367, l.370)">
+                    362-65. Chateaubriand
+                </note>
+                <note xml:id="briggs.128" resp="Briggs" anchored="true" target="#range(l.372, l.374)">
+                    367-68. "Paradise"
+                </note>
+                <note xml:id="briggs.129" resp="Briggs" anchored="true" target="#range(l.375, l.376)">
+                    369. Sainte-beuve
+                </note>
+                <note xml:id="briggs.130" resp="Briggs" anchored="true" target="#range(l.377, l.380)">
+                    370-73. The duc de la
+                </note>
+                <note xml:id="briggs.131" resp="Briggs" anchored="true" target="#1.382">
+                    375. "It's close
+                </note>
+                <note xml:id="briggs.132" resp="Briggs" anchored="true" target="#1.384">
+                    377. "Benediction,"
+                </note>
+                <note xml:id="briggs.133" resp="Briggs" anchored="true" target="#range(l.386, l.389)">
+                    379-82. The Virgin wears
+                </note>
+                <note xml:id="briggs.134" resp="Briggs" anchored="true" target="#1.390">
+                    383. "The Seven Stages,"
+                </note>
+                <note xml:id="briggs.135" resp="Briggs" anchored="true" target="#range(l.391, l.393)">
+                    384-86. White
+                </note>
+                <note xml:id="briggs.136" resp="Briggs" anchored="true" target="#range(l.394, l.395)">
+                    387-89. "troubadour,"
+                </note>
+                <note xml:id="briggs.137" resp="Briggs" anchored="true" target="#range(l.397, l.398)">
+                    390-91. The garden wall
+                </note>
+                <note xml:id="briggs.138" resp="Briggs" anchored="true" target="#range(l.399, l.400) #l.403"><!--CHECK...add #403-->
+                    392-93, 96. "Freedom!"
+                </note>
+                <note xml:id="briggs.139" resp="Briggs" anchored="true" target="#range(l.401, l.402)">
+                    394-95. "Petit-Palais,"
+                </note>
+                <note xml:id="briggs.140" resp="Briggs" anchored="true" target="#range(l.407, l.412)">
+                    400-404. "Fiacres,"
+                </note>
+                <note xml:id="briggs.141" resp="Briggs" anchored="true" target="#range(l.413, l.414)">
+                    405-6. The Quais
+                </note>
+                <note xml:id="briggs.142" resp="Briggs" anchored="true" target="#1.415">
+                    407. Paris has twenty
+                </note>
+                <note xml:id="briggs.143" resp="Briggs" anchored="true" target="#1.418">
+                    410. "Hyperbórean
+                </note>
+                <note xml:id="briggs.144" resp="Briggs" anchored="true" target="#1.421">
+                    413. "Ramparts,"
+                </note>
+                <note xml:id="briggs.145" resp="Briggs" anchored="true" target="#range(l.422, l.423)">
+                    414-15. Sigmund Freud
+                </note>
+                <note xml:id="briggs.146" resp="Briggs" anchored="true" target="#range(l.424, l.426)">
+                    416-18. Taxis line up
+                </note>
+                <note xml:id="briggs.147" resp="Briggs" anchored="true" target="#l.429">
+                    421. "their meat,"
+                </note>
+                <note xml:id="briggs.148" resp="Briggs" anchored="true" target="#l.430">
+                    422. "padre,"
+                </note>
+                <note xml:id="briggs.149" resp="Briggs" anchored="true" target="#l.431">
+                    423. Black music notes
+                </note>
+                <note xml:id="briggs.150" resp="Briggs" anchored="true" target="#l.433 #l.438"> <!--CHECK...add #438-->
+                    425, 430. Literally, all the cards
+                </note>
+                <note xml:id="briggs.151" resp="Briggs" anchored="true" target="#1.434">
+                    426. Fifty pairs of glasses
+                </note>
+                <note xml:id="briggs.152" resp="Briggs" anchored="true" target="#range(l.424, l.426)">
+                    428-29. Stage performers
+                </note>
+                <note xml:id="briggs.153" resp="Briggs" anchored="true" target="#1.439">
+                    431. Dawn brings the poem's
+                </note>
+                <note xml:id="briggs.154" resp="Briggs" anchored="true" target="#1.440">
+                    432. Paul Verlaine
+                </note>
+                <note xml:id="briggs.155" resp="Briggs" anchored="true" target="#range(l.445, l.446)">
+                    437-38. Raymond Poincaré
+                </note>
+                <note xml:id="briggs.156" resp="Briggs" anchored="true" target="#1.447">
+                    439. "Port-Royal,"
+                </note>
+                <note xml:id="briggs.157" resp="Briggs" anchored="true" target="#range(l.448, l.449)">
+                    440. This line suggests Duncan Grant's
+                </note>
+                <note xml:id="briggs.158" resp="Briggs" anchored="true" target="#1.451">
+                    443. "Les Halles,"
+                </note>
+                <note xml:id="briggs.159" resp="Briggs" anchored="true" target="#1.454">
+                    445. "I salute you
+                </note>
+                <note xml:id="briggs.160" resp="Briggs" anchored="true" target="#range(l.455, l.459)">
+                    445-46. The poem ends
+                </note>
+                <note xml:id="briggs.161" resp="Briggs" anchored="true" target="#1.462">
+                    449. [1916,
+                </note>
+            </div>
+        </body>
+    </text>    
+</TEI>

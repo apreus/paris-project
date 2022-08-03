@@ -1,0 +1,237 @@
+#body_notes.pages  text{
+    border: 1px solid black;
+}
+#body_notes.pages {
+    margin-top: 3em;
+}
+#body_notes.pages space[type="margin"][quantity="54"]{
+      display:block;
+      height: 54pt;
+      width: 216pt;
+  }
+  
+#body_notes.pages space[type="margin"][quantity="57"]{
+      display:block;
+      height: 57pt;
+      width: 216pt;
+      
+  }
+  
+#body_notes.pages space[type="whitespace"][quantity="85"]{
+      display:block;
+      height: 85pt;
+      width: 216pt;
+      
+  }
+  
+#body_notes.pages space[type="margin"][quantity="63"]{
+      display:block;
+      height: 63pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="55"]{
+      display:block;
+      height: 55pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="44"]{
+      display:block;
+      height: 44pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="45"]{
+      display:block;
+      height: 45pt;
+      width: 216pt;
+      
+  }
+  
+#body_notes.pages space[type="margin"][quantity="56"]{
+      display:block;
+      height: 56pt;
+      width: 216pt;
+      
+  }
+#body_notes.pages space[type="margin"][quantity="64"]{
+      display:block;
+      height: 64pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="60"]{
+      display:block;
+      height: 60pt;
+      width: 216pt;
+      
+  }
+
+space[type="margin"][quantity="66"]{
+      display:block;
+      height: 66pt;
+      width: 216pt;
+  }
+  
+#body_notes.pages space[type="margin"][quantity="136"]{
+      display:block;
+      height: 136pt;
+      width: 216pt;
+      
+  }
+  
+#body_notes.pages space[type="margin"][quantity="167"]{
+      display:block;
+      height: 167pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="31"]{
+      display:block;
+      height: 31pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="33"]{
+      display:block;
+      height: 33pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="35"]{
+      display:block;
+      height: 35pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="36"]{
+      display:block;
+      height: 36pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="39"]{
+      display:block;
+      height: 39pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="40"]{
+      display:block;
+      height: 40pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="41"]{
+      display:block;
+      height: 41pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="41.5"]{
+      display:block;
+      height: 41.5pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="43"]{
+      display:block;
+      height: 43pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="44"]{
+      display:block;
+      height: 44pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="45"]{
+      display:block;
+      height: 45pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="59"]{
+      display:block;
+      height: 59pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="margin"][quantity="62"]{
+      display:block;
+      height: 62pt;
+      width: 216pt;
+      
+  }
+
+#body_notes.pages space[type="whitespace"][quantity="149"]{
+      display:block;
+      height: 149pt;
+      width: 216pt;  
+  }
+
+#body_notes.pages space[type="whitespace"][quantity="177"]{
+      display:block;
+      height: 170pt;
+      width: 216pt;
+  }
+
+#body_notes.pages space[type="whitespace"][quantity="187"]{
+      display:block;
+      height: 187pt;
+      width: 216pt;
+  }
+
+#body_notes.pages space[type="whitespace"][quantity="198"]{
+      display:block;
+      height: 191pt;
+      width: 216pt;
+  }  
+  
+#body_notes.pages space[type="leading"][quantity="2"]{
+      display:block;
+      height: 1pt;
+      width: 216pt;
+  }
+
+#body_notes.pages @-webkit-keyframes block-in {
+  from {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+#body_notes.pages milestone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#body_notes.pages milestone[unit="page"]{
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+
