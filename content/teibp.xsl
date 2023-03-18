@@ -75,7 +75,7 @@
 			<body>
                           <div id="pageheader">
                             <span class="headertitle">   
-                              <a href="http://omeka.wustl.edu/omeka/exhibits/show/paris-project">PARIS</a>
+                              <a href="https://apreus.github.io/paris-project-exhibition/">PARIS</a>
                             </span>
                             <input type="checkbox" id="showpages" 
                                    onclick="toggleFeature('pages')"
