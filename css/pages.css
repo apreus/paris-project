@@ -234,4 +234,7 @@ space[type="margin"][quantity="66"]{
   background-color: black;
 }
 
+div#bodynotes.pages fw {
+  display: block;
+}
 
