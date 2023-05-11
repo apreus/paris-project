@@ -39,7 +39,7 @@ a:active {
     transition-property: left;
     transition-duration: 2s;
     width: 420px;
-    top: 100px;
+    
 }
 #body_notes.images #imagebox {
     display: block;
@@ -51,6 +51,7 @@ a:active {
     transition-property: left;
     transition-duration: 2s;
     border: none;
+    top: 100px;
 }
 #body_notes.images #imagebox img {
     width: 400px;
