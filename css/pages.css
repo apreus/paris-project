@@ -1,3 +1,8 @@
+#body_notes.pages fw {
+  display: block !important;
+}
+
+
 #body_notes.pages  text{
     border: 1px solid black;
 }
@@ -221,6 +226,7 @@ space[type="margin"][quantity="66"]{
     background-color: rgba(0, 0, 0, 0.8);
   }
 }
+
 #body_notes.pages milestone {
   display: block;
   margin-left: auto;
@@ -234,7 +240,4 @@ space[type="margin"][quantity="66"]{
   background-color: black;
 }
 
-div#bodynotes.pages fw {
-  display: block;
-}
 

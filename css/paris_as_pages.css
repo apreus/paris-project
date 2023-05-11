@@ -1,5 +1,14 @@
 @import url('paris_clean.css');
 
+div#bodynotes.pages fw {
+  display: block !important;
+}
+
+fw {
+  display: block !important;
+}
+
+
 text{
     border: 1px solid black;
 }
