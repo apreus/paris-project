@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "Caslon Book BE";
-  src: url("fonts/webFonts/BertholdCaslonBookRegular/font.woff2");
-}
-
-
 body {
   font-family: "Caslon Book BE";
   line-height: 10pt;
