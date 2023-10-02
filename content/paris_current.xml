@@ -1771,13 +1771,13 @@
 
          <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>
 
-         <l n="392" xml:id="l.399" part="N"><foreign xml:lang="fr"><hi rendition="italic"><space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/><ref type="image" target=
+         <l n="392" xml:id="l.399" part="N"><foreign xml:lang="fr"><hi rendition="#italic"><space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/><ref type="image" target=
             "img.538">La Liberté</ref> <ref type="image" target=
                "img.539">La Press</ref><space
                   type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>!</hi></foreign></l>
 
          <l n="393" xml:id="l.400" part="N"><space type="alignL" dim="horizontal" unit="pts" quantity="40" resp="Grove"/><foreign
-               xml:lang="fr"><hi rendition="italic">La Liberté La Presse<space
+               xml:lang="fr"><hi rendition="#italic">La Liberté La Presse<space
                type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>!</hi></foreign></l>
 
          <space type="leading" dim="vertical" unit="pts" quantity="10" resp="Grove"/>

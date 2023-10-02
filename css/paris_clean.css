@@ -153,9 +153,9 @@ seg[n="0.11"]{
     width: 216pt;
 }
 
-l[n="35"]{
+/*l[n="35"]{
     letter-spacing: .8px;
-}
+}*/
 
 l[n="56"]{
     letter-spacing: .6px;
@@ -185,9 +185,9 @@ l[n="166"]{
     letter-spacing: .8px;
 }
 
-l[n="180"]{
+/*l[n="180"]{
     letter-spacing: .7px;
-}
+}*/
 
 l[n="183"]{
     letter-spacing: .5px;
@@ -244,9 +244,9 @@ l[n="321"]{
     letter-spacing: .8px;
 }
 
-l[n="324"]{
+/*l[n="324"]{
     letter-spacing: .7px;
-}
+}*/
 
 l[n="351"]{
     letter-spacing: .8px;
@@ -276,17 +276,21 @@ l[n="397"]{
     letter-spacing: .7px;
 }
 
-l[n="410"]{
+/*l[n="410"]{
     letter-spacing: .7px;
-}
+}*/
 
 l[n="418"]{
     letter-spacing: .4px;
 }
 
-l[n="422"]{
-    letter-spacing: .8px;
+l[n="421"]{
+  letter-spacing: .2px;
 }
+
+/*l[n="422"]{
+    letter-spacing: .8px;
+}*/
 
 l[n="430"]{
     letter-spacing: .7px;
