@@ -439,7 +439,7 @@
 
          <l n="55" xml:id="l.55" part="N"><space type="alignL" dim="horizontal" unit="pts" quantity="41" resp="Grove"/>I see the
             <foreign xml:lang="fr"><ref type="image" target=
-               "img.121">Arc de Triomphe</ref></foreign></l><!--LANGUAGE: mark Arc de Triomphe as French?-->
+               "img.121">Arc de Triomphe,</ref></foreign></l><!--LANGUAGE: mark Arc de Triomphe as French?-->
 
          <l n="56" xml:id="l.56" rendition="#alignedR" part="N"><space type="alignL" dim="horizontal" unit="pts" quantity="18" resp="Grove"/>Square and shadowy like Julius Cæsar's dreams<space
                type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>:</l><!--TYPE: note spec. char-->
@@ -1067,11 +1067,11 @@
 
          <l n="208" xml:id="l.211" rendition="#justified" part="N">YANKEES<seg rendition="#face(upsidedown)" part="N">
                <seg rendition="#fontsize7pt" part="N">-</seg><seg rendition="#fontsize6pt" part="N">-</seg></seg>
-            ‘‘and say besides that in Aleppo once’’<space
+            ‘‘and say besides that in Aleppo once<space
                type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>.<space
                   type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>.<space
                      type="character" dim="horizontal" unit="pts" quantity="2" resp="Grove"/>.<space
-                        type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/></l>
+                        type="character" dim="horizontal" unit="pts" quantity="0.5" resp="Grove"/>’’</l>
 
          <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
 
@@ -1590,7 +1590,7 @@
 
          <l n="349" xml:id="l.354" part="N"><space type="alignL" dim="horizontal" unit="pts" quantity="59" resp="Grove"/>They are like blind dogs</l>
 
-         <l n="350" xml:id="l.355" part="N"><space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>The only thing that they can see are ghosts</l>
+         <l n="350" xml:id="l.355" part="N"><space type="alignL" dim="horizontal" unit="pts" quantity="30" resp="Grove"/>The only thing that they can see are ghosts.</l>
 
          <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
 
@@ -1762,7 +1762,7 @@
 
          <l n="388" xml:id="l.395" part="N"><space type="alignL" dim="horizontal" unit="pts" quantity="60" resp="Grove"/>Sings her songs</l>
 
-         <l n="389" xml:id="l.396" part="N"><space type="alignL" dim="horizontal" unit="pts" quantity="44" resp="Grove"/>Of little venial sins</l>
+         <l n="389" xml:id="l.396" part="N"><space type="alignL" dim="horizontal" unit="pts" quantity="44" resp="Grove"/>Of little venial sins.</l>
 
          <l n="390" xml:id="l.397" part="N"><space type="alignL" dim="horizontal" unit="pts" quantity="20" resp="Grove"/>Upon the wall of sunset<seg
             rendition="#fontsize7pt" part="N">-</seg>sky wasps never fret </l>
@@ -1788,7 +1788,7 @@
 
          <space type="leading" dim="vertical" unit="pts" quantity="4" resp="Grove"/>
 
-         <l n="395" xml:id="l.402" rendition="#justified" part="N">In the Algerian desert they are shouting the Koran</l><!--JUSTIFICATION-->
+         <l n="395" xml:id="l.402" rendition="#justified" part="N">In the Algerian desert they are shouting the Koran.</l><!--JUSTIFICATION-->
 
          <space type="leading" dim="vertical" unit="pts" quantity="7" resp="Grove"/>
 
